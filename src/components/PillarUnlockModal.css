@@ -1,0 +1,77 @@
+.pillar-unlock-modal {
+  min-width: 300px;
+}
+
+.pillar-unlock-message {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.pillar-unlock-subtitle {
+  font-size: 14px;
+  color: var(--text-accent);
+  margin-bottom: 24px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.pillar-unlock-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.pillar-unlock-card {
+  border: 2px solid var(--border);
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pillar-unlock-card:hover {
+  border-color: var(--text-accent);
+  transform: translateY(-2px);
+}
+
+.pillar-unlock-card--selected {
+  border-color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.pillar-unlock-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.pillar-unlock-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.pillar-unlock-count {
+  font-size: 12px;
+  color: var(--text-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pillar-unlock-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+@media (max-width: 640px) {
+  .pillar-unlock-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pillar-unlock-actions {
+    flex-direction: column;
+  }
+}

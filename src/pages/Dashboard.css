@@ -1,0 +1,112 @@
+.dashboard {
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.dashboard__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.dashboard__title-section {
+  flex: 1;
+}
+
+.dashboard__title {
+  font-family: var(--font-display);
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  line-height: 0.95;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 8px rgba(255, 255, 255, 0.12);
+}
+
+.dashboard__subtitle {
+  font-family: var(--font-heading);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-accent);
+  letter-spacing: 0.18em;
+  text-transform: lowercase;
+  margin-bottom: 8px;
+}
+
+.dashboard__quote {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 400;
+  color: #D0D0D0;
+  font-style: italic;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+}
+
+.dashboard__menu-btn {
+  background: transparent;
+  border: 2px solid var(--text-primary);
+  color: var(--text-primary);
+  font-size: 24px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dashboard__menu-btn:hover {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+.dashboard__stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.dashboard__section {
+  margin-bottom: 32px;
+}
+
+.dashboard__section-title {
+  font-family: var(--font-heading);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 8px;
+}
+
+.dashboard__pillar-section {
+  margin-bottom: 24px;
+}
+
+.dashboard__pillar-title {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--text-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 640px) {
+  .dashboard__title {
+    font-size: 24px;
+  }
+
+  .dashboard__stats {
+    grid-template-columns: 1fr;
+  }
+}

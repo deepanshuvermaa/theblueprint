@@ -1,0 +1,781 @@
+{
+  "app_name": "THE BLUEPRINT",
+  "tagline": "it takes just 30 days",
+  "platform": "React PWA",
+  "version": "2.0",
+  "theme": {
+    "style": "mafia",
+    "colors": {
+      "background": "#000000",
+      "text": "#FFFFFF",
+      "accent": "#CCCCCC",
+      "heatmap": {
+        "empty": "#161b22",
+        "level1": "#0e4429",
+        "level2": "#006d32",
+        "level3": "#26a641",
+        "level4": "#39d353"
+      }
+    },
+    "fonts": "Minimal, Sans-serif",
+    "design_rules": "No gradients, sharp, bold typography, clean minimal look"
+  },
+  "streak_rules": {
+    "grace_period_hours": 3,
+    "minimum_completion_rate": 0.8,
+    "weekend_mode": false,
+    "timezone_aware": true,
+    "prevent_future_completion": true,
+    "require_time_between_marks_seconds": 300
+  },
+  "xp_system": {
+    "difficulty_tiers": {
+      "easy": 5,
+      "medium": 10,
+      "hard": 20
+    },
+    "level_up_formula": "XP needed = level * 100",
+    "weekly_task_multiplier": 1.5,
+    "monthly_task_multiplier": 3
+  },
+  "user_progress_model": {
+    "current_streak": 0,
+    "longest_streak": 0,
+    "total_xp": 0,
+    "level": 1,
+    "completed_tasks": [],
+    "streak_freezes_remaining": 0,
+    "badges_earned": [],
+    "join_date": null,
+    "timezone": "auto"
+  },
+  "onboarding": {
+    "steps": [
+      {
+        "type": "welcome",
+        "message": "Most people quit in 3 days. You won't."
+      },
+      {
+        "type": "pillar_selection",
+        "message": "Pick 2-3 pillars to start. Don't overwhelm yourself.",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "type": "commitment",
+        "message": "Commit to showing up for 7 days. Just 7.",
+        "duration_days": 7
+      }
+    ]
+  },
+  "pillars": [
+    {
+      "id": "hygiene",
+      "name": "Hygiene",
+      "icon": "🧼",
+      "habits": [
+        {
+          "id": "hygiene_sleep",
+          "title": "Recharge with 7 hours of quality sleep",
+          "why": "Sleep improves focus, recovery, mood and long-term health. Lack of sleep leads to poor willpower and brain fog.",
+          "how": "Fix a consistent sleep time, avoid screens 1 hour before bed, use mouth tape for nasal breathing.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "hygiene"
+        },
+        {
+          "id": "hygiene_mouth_tape",
+          "title": "Wake up energized by taping your mouth for deep nasal breathing",
+          "why": "Mouth taping encourages nasal breathing, improves oxygen intake and quality of sleep.",
+          "how": "Use safe hypoallergenic mouth tape. Apply before sleeping. Do not use if you have nasal blockage.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "easy",
+          "category": "hygiene"
+        },
+        {
+          "id": "hygiene_sun_gaze",
+          "title": "Absorb natural energy — 5 min sun gaze",
+          "why": "Morning sunlight regulates circadian rhythm, boosts vitamin D and enhances mood.",
+          "how": "Expose yourself to sunlight for 5 minutes after waking, avoid looking directly into the sun.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "easy",
+          "category": "hygiene"
+        },
+        {
+          "id": "hygiene_skincare",
+          "title": "Protect your skin health — quick skincare routine",
+          "why": "Skincare keeps skin clean, reduces acne, protects against aging.",
+          "how": "Wash face with mild cleanser, apply moisturizer. Optional sunscreen if going outside.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "easy",
+          "category": "hygiene"
+        },
+        {
+          "id": "hygiene_hair_wash",
+          "title": "Stay fresh — wash hair twice a week",
+          "why": "Keeps scalp healthy, prevents oil build-up, improves appearance.",
+          "how": "Use shampoo suitable for your hair type, condition if needed.",
+          "frequency": {
+            "type": "days_per_week",
+            "count": 2,
+            "flexible": true,
+            "optional": false
+          },
+          "difficulty": "easy",
+          "category": "hygiene"
+        },
+        {
+          "id": "hygiene_scent",
+          "title": "Smell good, feel confident — use a scent daily",
+          "why": "Good smell boosts self-confidence, leaves strong impressions.",
+          "how": "Apply deodorant/perfume lightly on pulse points after shower.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "easy",
+          "category": "hygiene"
+        },
+        {
+          "id": "hygiene_dress_sharp",
+          "title": "Dress sharp — wear clothes that fit you",
+          "why": "Well-fitted clothes enhance confidence and appearance.",
+          "how": "Pick clothes that match your body type. Avoid too loose or too tight.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "easy",
+          "category": "hygiene"
+        }
+      ]
+    },
+    {
+      "id": "fitness",
+      "name": "Fitness",
+      "icon": "💪",
+      "habits": [
+        {
+          "id": "fitness_stretch",
+          "title": "Stretch 15 minutes daily",
+          "why": "Improves flexibility, reduces stiffness and prevents injuries.",
+          "how": "Do full body stretches targeting shoulders, hips, hamstrings.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "easy",
+          "category": "fitness"
+        },
+        {
+          "id": "fitness_breath_workout",
+          "title": "Do a breath workout",
+          "why": "Breathing exercises improve lung health, calm mind and reduce stress.",
+          "how": "Practice box breathing or alternate nostril breathing for 5–10 min.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "easy",
+          "category": "fitness"
+        },
+        {
+          "id": "fitness_ppl_training",
+          "title": "Train 6 times a week (Push/Pull/Legs)",
+          "why": "Structured strength training builds muscle, strength, endurance.",
+          "how": "Split workout: Push (chest, triceps, shoulders), Pull (back, biceps), Legs. 2 cycles per week.",
+          "frequency": {
+            "type": "days_per_week",
+            "count": 6,
+            "flexible": true,
+            "optional": false
+          },
+          "difficulty": "hard",
+          "category": "fitness"
+        },
+        {
+          "id": "fitness_steps",
+          "title": "Walk 10,000 steps daily",
+          "why": "Walking boosts cardiovascular health, burns calories, improves mental clarity.",
+          "how": "Track steps with phone/watch. Aim for 10k throughout the day.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "fitness",
+          "scaling": {
+            "enabled": true,
+            "milestones": [
+              {
+                "day": 30,
+                "upgrade": "Walk 12,000 steps daily"
+              },
+              {
+                "day": 60,
+                "upgrade": "Walk 15,000 steps daily"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fitness_abs",
+          "title": "Train abs 2 times per week",
+          "why": "Core strength improves posture, protects spine and enhances performance.",
+          "how": "Add ab exercises (plank, crunches, leg raises) on leg days.",
+          "frequency": {
+            "type": "days_per_week",
+            "count": 2,
+            "flexible": true,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "fitness"
+        },
+        {
+          "id": "fitness_protein",
+          "title": "Consume 1g protein per bodyweight (kg)",
+          "why": "Protein supports muscle growth, repair and satiety.",
+          "how": "Calculate weight in kg. Example: 70kg = 70g protein daily.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "fitness"
+        }
+      ]
+    },
+    {
+      "id": "self_mastery",
+      "name": "Self-Mastery",
+      "icon": "🧠",
+      "habits": [
+        {
+          "id": "self_journal",
+          "title": "Journal daily",
+          "why": "Journaling clears thoughts, tracks progress, improves self-awareness.",
+          "how": "Write for 5-10 minutes. Reflect on wins, struggles, gratitude.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "easy",
+          "category": "self_mastery"
+        },
+        {
+          "id": "self_meditation",
+          "title": "Do 10 minutes meditation",
+          "why": "Meditation reduces stress, improves focus, builds mindfulness.",
+          "how": "Sit quietly, focus on breath or use guided app.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "self_mastery"
+        },
+        {
+          "id": "self_tutorial",
+          "title": "1 tutorial a day",
+          "why": "Daily learning compounds into mastery over time.",
+          "how": "Watch or read a tutorial related to skills you want to develop.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "self_mastery"
+        },
+        {
+          "id": "self_reading",
+          "title": "Read at least 10 pages",
+          "why": "Reading builds knowledge, focus and creativity.",
+          "how": "Read a physical or digital book. Avoid skimming.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "easy",
+          "category": "self_mastery",
+          "scaling": {
+            "enabled": true,
+            "milestones": [
+              {
+                "day": 30,
+                "upgrade": "Read at least 15 pages"
+              },
+              {
+                "day": 60,
+                "upgrade": "Read at least 20 pages"
+              }
+            ]
+          }
+        },
+        {
+          "id": "self_faith",
+          "title": "Develop faith",
+          "why": "Faith builds resilience and optimism, helps during hard times.",
+          "how": "Affirmations, spiritual practices, or gratitude journaling.",
+          "frequency": {
+            "type": "daily",
+            "flexible": true,
+            "optional": true
+          },
+          "difficulty": "easy",
+          "category": "self_mastery"
+        },
+        {
+          "id": "self_mentors",
+          "title": "Learn from mentors, not influencers",
+          "why": "Mentors offer practical wisdom vs. shallow content.",
+          "how": "Follow credible sources, seek structured knowledge.",
+          "frequency": {
+            "type": "daily",
+            "flexible": true,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "self_mastery"
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "name": "Diet",
+      "icon": "🥗",
+      "habits": [
+        {
+          "id": "diet_water",
+          "title": "Drink 3-4L water daily",
+          "why": "Hydration improves energy, focus, digestion.",
+          "how": "Carry a water bottle. Add electrolytes if needed.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "diet"
+        },
+        {
+          "id": "diet_no_alcohol",
+          "title": "No alcohol",
+          "why": "Alcohol damages liver, sleep and productivity.",
+          "how": "Replace with sparkling water, tea, or mocktails.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "hard",
+          "category": "diet"
+        },
+        {
+          "id": "diet_organic",
+          "title": "Eat organic foods",
+          "why": "Organic foods reduce toxin intake and improve health.",
+          "how": "Choose clean produce and whole foods.",
+          "frequency": {
+            "type": "daily",
+            "flexible": true,
+            "optional": true
+          },
+          "difficulty": "medium",
+          "category": "diet"
+        },
+        {
+          "id": "diet_high_protein",
+          "title": "High protein meals",
+          "why": "Supports muscle repair, metabolism and satiety.",
+          "how": "Prioritize lean meats, eggs, legumes in each meal.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "diet"
+        },
+        {
+          "id": "diet_no_sugar",
+          "title": "Avoid sugars",
+          "why": "Sugar spikes insulin, causes weight gain and energy crashes.",
+          "how": "Replace soda with water, choose natural fruits.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "hard",
+          "category": "diet"
+        },
+        {
+          "id": "diet_avoid_calorie_bombs",
+          "title": "Say no to high-calorie bomb meals",
+          "why": "Excessive calories lead to fat gain and sluggishness.",
+          "how": "Avoid fast food and fried items. Opt for balanced meals.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "hard",
+          "category": "diet"
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "name": "Learning",
+      "icon": "📚",
+      "habits": [
+        {
+          "id": "learning_daily_concept",
+          "title": "Learn something new daily",
+          "why": "Continuous learning keeps brain sharp and adaptable.",
+          "how": "Pick a small concept daily and master it.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "learning"
+        },
+        {
+          "id": "learning_high_income_skills",
+          "title": "Build high-income skills",
+          "skills": [
+            "Persuasion",
+            "Storytelling",
+            "Design",
+            "Writing",
+            "AI"
+          ],
+          "why": "Market rewards skills, not just degrees. High-value skills lead to financial success.",
+          "how": "Dedicate time each day to practice one of these skills.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "hard",
+          "category": "learning"
+        }
+      ]
+    },
+    {
+      "id": "financial_freedom",
+      "name": "Financial Freedom",
+      "icon": "💰",
+      "habits": [
+        {
+          "id": "finance_start_business",
+          "title": "Start a business",
+          "why": "Business builds independence, wealth and freedom.",
+          "how": "Plan, research, or take small steps towards building.",
+          "frequency": {
+            "type": "weekly",
+            "count": 1,
+            "flexible": true,
+            "optional": false
+          },
+          "difficulty": "hard",
+          "category": "financial_freedom"
+        },
+        {
+          "id": "finance_money_skills",
+          "title": "Learn skills that make money",
+          "why": "Income-generating skills lead to freedom.",
+          "how": "Invest 30-60 min daily on practice.",
+          "frequency": {
+            "type": "daily",
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "hard",
+          "category": "financial_freedom"
+        },
+        {
+          "id": "finance_save_20_percent",
+          "title": "Save 20% of income",
+          "why": "Savings provide security and capital for investment.",
+          "how": "Automate savings transfer each month.",
+          "frequency": {
+            "type": "monthly",
+            "count": 1,
+            "flexible": false,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "financial_freedom"
+        },
+        {
+          "id": "finance_invest",
+          "title": "Invest, even a dollar",
+          "why": "Investing builds wealth long-term through compounding.",
+          "how": "Invest small amounts regularly into safe assets.",
+          "frequency": {
+            "type": "weekly",
+            "count": 1,
+            "flexible": true,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "financial_freedom"
+        },
+        {
+          "id": "finance_income_streams",
+          "title": "Build multiple income streams",
+          "why": "Diversification ensures stability and freedom.",
+          "how": "Create side hustles, freelancing, digital products.",
+          "frequency": {
+            "type": "monthly",
+            "count": 1,
+            "flexible": true,
+            "optional": false
+          },
+          "difficulty": "hard",
+          "category": "financial_freedom"
+        },
+        {
+          "id": "finance_avoid_debt",
+          "title": "Avoid useless debt",
+          "why": "Debt traps you into financial slavery.",
+          "how": "Avoid buying depreciating items on credit.",
+          "frequency": {
+            "type": "daily",
+            "flexible": true,
+            "optional": false
+          },
+          "difficulty": "medium",
+          "category": "financial_freedom"
+        },
+        {
+          "id": "finance_track_money",
+          "title": "Track your money flow",
+          "why": "Awareness leads to control of finances.",
+          "how": "Write down expenses weekly.",
+          "frequency": {
+            "type": "weekly",
+            "count": 1,
+            "flexible": true,
+            "optional": false
+          },
+          "difficulty": "easy",
+          "category": "financial_freedom"
+        }
+      ]
+    }
+  ],
+  "gamification": {
+    "heatmap": {
+      "style": "GitHub style streak tracker",
+      "show_days": 365,
+      "visual_break_effect": "Heatmap grays out with crack effect on streak break"
+    },
+    "xp_system": {
+      "points_per_task": "Based on difficulty tier",
+      "leveling": "XP increases user level and unlocks rewards",
+      "level_benefits": [
+        {
+          "level": 5,
+          "unlock": "Streak insurance available"
+        },
+        {
+          "level": 10,
+          "unlock": "Weekly boss challenge unlocked"
+        },
+        {
+          "level": 20,
+          "unlock": "Custom habit creation"
+        }
+      ]
+    },
+    "badges": [
+      {
+        "id": "rising_star",
+        "streak": 7,
+        "title": "Rising Star",
+        "icon": "⭐"
+      },
+      {
+        "id": "unstoppable",
+        "streak": 30,
+        "title": "Unstoppable",
+        "icon": "🔥"
+      },
+      {
+        "id": "mastery_mode",
+        "streak": 100,
+        "title": "Mastery Mode",
+        "icon": "👑"
+      },
+      {
+        "id": "sunday_warrior",
+        "special": true,
+        "title": "Sunday Warrior",
+        "icon": "⚔️",
+        "description": "Complete all tasks on Sunday"
+      }
+    ],
+    "streak_insurance": {
+      "enabled": true,
+      "cost_xp": 50,
+      "max_uses_per_month": 2,
+      "unlock_level": 5,
+      "description": "Protect your streak if you miss a day"
+    },
+    "streak_break_consequence": {
+      "show_message": "You just wasted {days} days of work.",
+      "visual": "Heatmap grays out with crack effect",
+      "recovery_cost": "Double XP needed for 3 days"
+    },
+    "sunday_challenge": {
+      "enabled": true,
+      "title": "Complete ALL tasks today for 3x XP",
+      "multiplier": 3,
+      "badge": "sunday_warrior",
+      "unlock_level": 10
+    }
+  },
+  "daily_minimum": {
+    "enabled": true,
+    "title": "Too busy? Do the bare minimum:",
+    "description": "Complete these 3 tasks to keep your streak alive",
+    "tasks": [
+      "10 pushups",
+      "1 page read",
+      "5 min meditation"
+    ],
+    "keeps_streak": true,
+    "xp_reward": 5
+  },
+  "analytics": {
+    "weekly_summary": {
+      "day": "Sunday",
+      "time": "20:00",
+      "metrics": [
+        "Tasks completed %",
+        "Strongest vs weakest pillar",
+        "Longest streak this week",
+        "XP gained",
+        "Level progress"
+      ]
+    },
+    "monthly_report": {
+      "day": 1,
+      "metrics": [
+        "Personalized insights",
+        "Category performance comparison",
+        "Streak consistency",
+        "Growth areas",
+        "Achievements unlocked"
+      ]
+    }
+  },
+  "notifications": {
+    "morning": {
+      "enabled": true,
+      "time": "08:00",
+      "message": "Daily reminder for tasks"
+    },
+    "evening": {
+      "enabled": true,
+      "time": "20:00",
+      "message": "Complete your tasks before midnight"
+    },
+    "motivation": [
+      "Consistency beats intensity. Show up today.",
+      "You've beaten 90% of people who quit in a week.",
+      "You are proof of the compound effect.",
+      "Most people quit. You're not most people.",
+      "The streak doesn't lie. Keep building.",
+      "Discipline is doing it when you don't feel like it.",
+      "Your future self is watching. Make them proud."
+    ]
+  },
+  "social_proof": {
+    "enabled": true,
+    "meta": {
+      "total_users": 0,
+      "active_today": 0,
+      "longest_global_streak": 0,
+      "your_rank": null
+    },
+    "display_locations": [
+      "home_screen",
+      "profile"
+    ]
+  },
+  "anti_gaming": {
+    "prevent_future_completion": true,
+    "require_time_between_marks": 300,
+    "random_spot_checks": false,
+    "max_retroactive_hours": 3
+  },
+  "test_cases": [
+    "First time user completes day 1",
+    "User misses one day, streak breaks",
+    "User uses streak freeze",
+    "User completes task at 11:58 PM",
+    "User tries to complete tomorrow's task (should fail)",
+    "User completes 6/7 daily tasks (80% threshold)",
+    "User levels up (XP threshold crossed)",
+    "Heatmap renders 365 days correctly",
+    "Weekly summary generates on Sunday night",
+    "Notification triggers at 8 AM user timezone",
+    "User completes weekly task (abs 2x)",
+    "User toggles pillar on/off mid-streak",
+    "Offline mode syncs when back online",
+    "User deletes app data and reinstalls",
+    "Grace period allows completion up to 3am next day",
+    "Sunday challenge awards 3x XP",
+    "Progressive overload increases difficulty at milestones",
+    "Streak insurance prevents streak break",
+    "User attempts to mark same task twice within 5 minutes"
+  ],
+  "technical_requirements": {
+    "storage": "localStorage + IndexedDB for offline support",
+    "sync": "Optional cloud sync for multi-device",
+    "offline_first": true,
+    "pwa_features": [
+      "Install prompt",
+      "Push notifications",
+      "Background sync",
+      "Offline mode"
+    ],
+    "performance": {
+      "initial_load": "< 2s",
+      "time_to_interactive": "< 3s",
+      "lighthouse_score": "> 90"
+    }
+  }
+}

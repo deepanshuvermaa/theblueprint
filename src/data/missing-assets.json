@@ -1,0 +1,489 @@
+{
+  "meditation": {
+    "premium": [
+      {
+        "id": "meditation-p1",
+        "name": "Muse S Headband (Gen 2)",
+        "description": "EEG brain-sensing meditation device. Real-time neurofeedback for deeper practice.",
+        "price": "$399",
+        "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=400",
+        "affiliateLink": "https://choosemuse.com/products/muse-s-gen-2",
+        "platform": "Muse",
+        "badge": "Premium Choice"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "meditation-m1",
+        "name": "Headspace Annual Subscription",
+        "description": "Guided meditation, mindfulness exercises, sleep sounds. Proven stress reduction.",
+        "price": "$69.99/year",
+        "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400",
+        "affiliateLink": "https://www.headspace.com/subscriptions",
+        "platform": "Headspace",
+        "badge": "Best Value"
+      }
+    ],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "meditation-f1",
+        "type": "youtube",
+        "name": "5-Min Beginner Meditation (Breathing Focus)",
+        "videoId": "inpok4MKVLM",
+        "description": "Quick daily meditation for beginners. Focus on breath awareness and present moment."
+      },
+      {
+        "id": "meditation-f2",
+        "type": "youtube",
+        "name": "10-Min Breathwork Meditation (Wim Hof Style)",
+        "videoId": "tybOi4hjZFQ",
+        "description": "Energizing breathwork session. 3 rounds of powerful breathing for clarity and energy."
+      },
+      {
+        "id": "meditation-f3",
+        "type": "youtube",
+        "name": "20-Min Body Scan Meditation (Full Relaxation)",
+        "videoId": "QS2yDmWk0vs",
+        "description": "Deep body scan for complete relaxation. Release tension from head to toe."
+      },
+      {
+        "id": "meditation-f4",
+        "type": "youtube",
+        "name": "Tibetan Singing Bowl Meditation (1 Hour)",
+        "videoId": "3XtQ3bCxvis",
+        "description": "Pure healing frequencies for deep meditation and relaxation."
+      },
+      {
+        "id": "meditation-f5",
+        "type": "guide",
+        "name": "Sam Harris: Waking Up Free Course",
+        "url": "https://www.wakingup.com/free-access",
+        "description": "Neuroscientist's meditation app with free scholarship access available."
+      },
+      {
+        "id": "meditation-f6",
+        "type": "guide",
+        "name": "Headspace Free Trial (14 Days)",
+        "url": "https://www.headspace.com/join",
+        "description": "Guided meditations for sleep, stress, focus. 14-day full access trial."
+      },
+      {
+        "id": "meditation-f7",
+        "type": "guide",
+        "name": "Insight Timer (100% Free Forever)",
+        "url": "https://insighttimer.com/",
+        "description": "World's largest free meditation library. 130k+ guided meditations, music, talks."
+      }
+    ]
+  },
+  "reading_books": {
+    "premium": [],
+    "mid_range": [
+      {
+        "id": "reading-m1",
+        "name": "Kindle Paperwhite Signature Edition",
+        "description": "7-inch glare-free display, auto-adjusting light, wireless charging. 32GB storage.",
+        "price": "$189",
+        "image": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B08N3J8GTX",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      },
+      {
+        "id": "reading-m2",
+        "name": "Audible Premium Plus (Annual)",
+        "description": "12 credits/year + unlimited audiobook library. Best for commuters.",
+        "price": "$149/year",
+        "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=400",
+        "affiliateLink": "https://www.audible.com/",
+        "platform": "Audible",
+        "badge": "Best Value"
+      }
+    ],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "reading-f1",
+        "type": "guide",
+        "name": "Business Books: Atomic Habits, $100M Offers",
+        "url": "https://www.amazon.com/s?k=atomic+habits",
+        "description": "James Clear (habits), Alex Hormozi (sales/offers), Cal Newport (Deep Work), Peter Thiel (Zero to One)."
+      },
+      {
+        "id": "reading-f2",
+        "type": "guide",
+        "name": "Philosophy: Meditations, Man's Search for Meaning",
+        "url": "https://www.amazon.com/s?k=meditations+marcus+aurelius",
+        "description": "Marcus Aurelius (Stoicism), Viktor Frankl (meaning), Seneca (letters), Epictetus (discourses)."
+      },
+      {
+        "id": "reading-f3",
+        "type": "guide",
+        "name": "Self-Help: Can't Hurt Me, The Subtle Art",
+        "url": "https://www.amazon.com/s?k=cant+hurt+me",
+        "description": "David Goggins (mental toughness), Mark Manson (life philosophy), Ryan Holiday (Stoicism)."
+      },
+      {
+        "id": "reading-f4",
+        "type": "guide",
+        "name": "Fiction Classics: 1984, To Kill a Mockingbird",
+        "url": "https://www.amazon.com/s?k=1984+orwell",
+        "description": "George Orwell (1984), Harper Lee (Mockingbird), Dostoevsky (Brothers Karamazov)."
+      },
+      {
+        "id": "reading-f5",
+        "type": "guide",
+        "name": "Science: Sapiens, Thinking Fast and Slow",
+        "url": "https://www.amazon.com/s?k=sapiens",
+        "description": "Yuval Harari (history), Daniel Kahneman (psychology), Richard Dawkins (evolution)."
+      },
+      {
+        "id": "reading-f6",
+        "type": "guide",
+        "name": "How to Read a Book (Mortimer Adler Method)",
+        "url": "https://fs.blog/how-to-read-a-book/",
+        "description": "4 levels: Elementary → Inspectional → Analytical → Syntopical. Master retention."
+      }
+    ]
+  },
+  "mentors": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "mentors-f1",
+        "type": "youtube",
+        "name": "Andrew Huberman (Neuroscience)",
+        "videoId": "dFDaoZhKnoA",
+        "description": "Huberman Lab Podcast. Science-backed protocols for sleep, focus, performance. Stanford professor."
+      },
+      {
+        "id": "mentors-f2",
+        "type": "guide",
+        "name": "Naval Ravikant (Startups & Philosophy)",
+        "url": "https://www.youtube.com/@NavalR",
+        "description": "How to Get Rich, Happiness, Meditation. AngelList founder. Watch: Almanack playlist."
+      },
+      {
+        "id": "mentors-f3",
+        "type": "guide",
+        "name": "Alex Hormozi (Business)",
+        "url": "https://www.youtube.com/@AlexHormozi",
+        "description": "$100M Offers, Leads, Agency scaling. Watch: 'How I Would Start From $0' series."
+      },
+      {
+        "id": "mentors-f4",
+        "type": "guide",
+        "name": "Lex Fridman (AI & Deep Conversations)",
+        "url": "https://www.youtube.com/@lexfridman",
+        "description": "Long-form interviews with world's smartest people. Elon, Sam Altman, Zuckerberg, scientists."
+      },
+      {
+        "id": "mentors-f5",
+        "type": "guide",
+        "name": "Y Combinator (Startup School)",
+        "url": "https://www.youtube.com/@ycombinator",
+        "description": "How to start a startup. Free Startup School. Advice from Airbnb, Stripe, Dropbox founders."
+      },
+      {
+        "id": "mentors-f6",
+        "type": "guide",
+        "name": "Iman Gadzhi (Online Business)",
+        "url": "https://www.youtube.com/@ImanGadzhi",
+        "description": "Agency model, personal brand, young entrepreneurship. Watch: 'How to Start' series."
+      },
+      {
+        "id": "mentors-f7",
+        "type": "guide",
+        "name": "Jordan Peterson (Psychology)",
+        "url": "https://www.youtube.com/@JordanBPeterson",
+        "description": "12 Rules for Life, responsibility, meaning. Watch: Biblical Series, Personality lectures."
+      },
+      {
+        "id": "mentors-f8",
+        "type": "guide",
+        "name": "Ali Abdaal (Productivity)",
+        "url": "https://www.youtube.com/@aliabdaal",
+        "description": "Evidence-based productivity, content creation, side hustles. Doctor turned YouTuber."
+      },
+      {
+        "id": "mentors-f9",
+        "type": "guide",
+        "name": "Pursuit of Wonder (Philosophy)",
+        "url": "https://www.youtube.com/@PursuitofWonder",
+        "description": "Animated philosophy stories. Existentialism, absurdism, meaning of life."
+      }
+    ]
+  },
+  "abs_training": {
+    "premium": [],
+    "mid_range": [
+      {
+        "id": "abs-m1",
+        "name": "Ab Roller Wheel",
+        "description": "Core strengthening tool. Targets entire abdominal wall + obliques.",
+        "price": "$15",
+        "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B07YNDQ8C7",
+        "platform": "Amazon",
+        "badge": "Best Value"
+      }
+    ],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "abs-f1",
+        "type": "youtube",
+        "name": "10-Min Beginner Abs (No Equipment)",
+        "videoId": "DHD1-2P94DI",
+        "description": "Crunches, planks, leg raises, bicycle crunches. Perfect for beginners."
+      },
+      {
+        "id": "abs-f2",
+        "type": "youtube",
+        "name": "15-Min Advanced Abs (Intense)",
+        "videoId": "3p8EBPVZ2Iw",
+        "description": "Dragon flags, hanging leg raises, ab wheel rollouts. Jeff Cavaliere AthleanX."
+      },
+      {
+        "id": "abs-f3",
+        "type": "youtube",
+        "name": "6-Pack Abs Science (Athlean-X)",
+        "videoId": "VKPn2v55EHs",
+        "description": "How to actually see abs. Diet, training frequency, progressive overload explained."
+      },
+      {
+        "id": "abs-f4",
+        "type": "guide",
+        "name": "Best Ab Exercises (Study-Based)",
+        "url": "https://www.t-nation.com/training/21st-century-core-training/",
+        "description": "Top 5: Hanging leg raises, ab wheel, cable crunches, deadbugs, Pallof press."
+      }
+    ]
+  },
+  "faith": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "faith-f1",
+        "type": "guide",
+        "name": "Daily Prayer/Meditation Practices",
+        "url": "https://www.contemplativeoutreach.org/centering-prayer-method/",
+        "description": "Centering Prayer: 20-min silent contemplation. Christian meditation tradition."
+      },
+      {
+        "id": "faith-f2",
+        "type": "guide",
+        "name": "Gratitude & Reflection Prompts",
+        "url": "https://gratefulness.org/resource/grateful-living-practices/",
+        "description": "Stop-Look-Go practice. Pause, recognize blessings, respond with gratitude."
+      },
+      {
+        "id": "faith-f3",
+        "type": "youtube",
+        "name": "Gregorian Chant (1 Hour Meditation)",
+        "videoId": "W-hrBhA4XkM",
+        "description": "Sacred music for contemplation. Benedictine monks chanting."
+      },
+      {
+        "id": "faith-f4",
+        "type": "guide",
+        "name": "The Bible Project (Free Videos)",
+        "url": "https://bibleproject.com/",
+        "description": "Animated summaries of every book. Themes, wisdom literature, history."
+      },
+      {
+        "id": "faith-f5",
+        "type": "guide",
+        "name": "Lectio Divina (Sacred Reading)",
+        "url": "https://www.valyermo.com/ld-art.html",
+        "description": "4 steps: Read, Meditate, Pray, Contemplate. Ancient Christian practice."
+      },
+      {
+        "id": "faith-f6",
+        "type": "guide",
+        "name": "YouVersion Bible App (100% Free)",
+        "url": "https://www.bible.com/",
+        "description": "Daily devotionals, reading plans, audio Bible. 2000+ versions in 1600+ languages."
+      }
+    ]
+  },
+  "hair_wash": {
+    "premium": [
+      {
+        "id": "hair-p1",
+        "name": "Olaplex No. 3 Hair Perfector",
+        "description": "Bond-building treatment. Repairs damage, strengthens hair at molecular level.",
+        "price": "$30",
+        "image": "https://images.unsplash.com/photo-1526045478516-99145907023c?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B00SNM5US4",
+        "platform": "Amazon",
+        "badge": "Premium Choice"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "hair-m1",
+        "name": "Nizoral Anti-Dandruff Shampoo",
+        "description": "Ketoconazole 1%. Controls flaking, scaling, itching. Dermatologist recommended.",
+        "price": "$15",
+        "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B00AINMFAC",
+        "platform": "Amazon",
+        "badge": "Best Value"
+      }
+    ],
+    "budget": [
+      {
+        "id": "hair-b1",
+        "name": "Sulfate-Free Shampoo & Conditioner",
+        "description": "Gentle cleansing. Preserves natural oils. For all hair types.",
+        "price": "$12",
+        "image": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B07QFNP6DP",
+        "platform": "Amazon",
+        "badge": null
+      }
+    ],
+    "free_resources": [
+      {
+        "id": "hair-f1",
+        "type": "guide",
+        "name": "How Often to Wash Hair (By Type)",
+        "url": "https://www.healthline.com/health/beauty-skin-care/how-often-should-you-wash-your-hair",
+        "description": "Oily: Every other day. Dry: 2x/week. Normal: 2-3x/week. Curly: 1x/week."
+      },
+      {
+        "id": "hair-f2",
+        "type": "youtube",
+        "name": "Proper Hair Washing Technique",
+        "videoId": "sZCzm3PlCuM",
+        "description": "Focus shampoo on scalp. Conditioner on ends only. Massage, don't scratch."
+      },
+      {
+        "id": "hair-f3",
+        "type": "guide",
+        "name": "Cold Water Rinse Benefits",
+        "url": "https://www.medicalnewstoday.com/articles/327461",
+        "description": "Closes cuticles, adds shine, reduces frizz. Finish with 30-second cold rinse."
+      },
+      {
+        "id": "hair-f4",
+        "type": "guide",
+        "name": "Hair Loss Prevention Guide",
+        "url": "https://www.health.harvard.edu/staying-healthy/treating-male-pattern-baldness",
+        "description": "Minoxidil, finasteride, derma rolling, nizoral. Evidence-based treatments."
+      }
+    ]
+  },
+  "sun_gaze": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "sun-f1",
+        "type": "guide",
+        "name": "Safe Sun Exposure Guide",
+        "url": "https://www.health.harvard.edu/staying-healthy/time-for-more-vitamin-d",
+        "description": "10-15 min before 10am or after 4pm. Face, arms exposed. 3-4x/week for Vitamin D."
+      },
+      {
+        "id": "sun-f2",
+        "type": "guide",
+        "name": "Circadian Rhythm Reset",
+        "url": "https://www.hubermanlab.com/newsletter/toolkit-for-sleep",
+        "description": "Morning sunlight within 30-60 min of waking. 10 min bright days, 30 min cloudy days."
+      },
+      {
+        "id": "sun-f3",
+        "type": "youtube",
+        "name": "Huberman on Light & Circadian Health",
+        "videoId": "VgYYu7P25R8",
+        "description": "How light exposure affects sleep, mood, focus. Morning sun = evening melatonin spike."
+      },
+      {
+        "id": "sun-f4",
+        "type": "guide",
+        "name": "Vitamin D Testing & Supplementation",
+        "url": "https://www.health.harvard.edu/staying-healthy/vitamin-d-and-your-health",
+        "description": "Get blood test. Target: 30-50 ng/mL. Supplement 2000-4000 IU if deficient."
+      },
+      {
+        "id": "sun-f5",
+        "type": "guide",
+        "name": "WARNING: Sun Gazing Safety",
+        "url": "https://www.aao.org/eye-health/tips-prevention/sun",
+        "description": "NEVER stare directly at sun. Can cause permanent retinal damage. Face sun, eyes closed or indirect gaze."
+      }
+    ]
+  },
+  "mouth_tape": {
+    "premium": [],
+    "mid_range": [
+      {
+        "id": "mouth-m1",
+        "name": "Hostage Tape (Mouth Tape for Sleep)",
+        "description": "Promotes nasal breathing during sleep. Reduces snoring, improves oxygen intake.",
+        "price": "$25",
+        "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B09JKLS8TB",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      }
+    ],
+    "budget": [
+      {
+        "id": "mouth-b1",
+        "name": "Medical-Grade Paper Tape",
+        "description": "Budget alternative. 3M Micropore tape. Gentle on skin, easy removal.",
+        "price": "$8",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B0012TRH48",
+        "platform": "Amazon",
+        "badge": "Budget Choice"
+      }
+    ],
+    "free_resources": [
+      {
+        "id": "mouth-f1",
+        "type": "youtube",
+        "name": "James Nestor: Breath (Mouth Taping Science)",
+        "videoId": "bQNM2u2fxLc",
+        "description": "Author of 'Breath' explains nasal vs mouth breathing. Why tape works."
+      },
+      {
+        "id": "mouth-f2",
+        "type": "guide",
+        "name": "How to Safely Tape Your Mouth",
+        "url": "https://www.sleepfoundation.org/physical-health/mouth-taping",
+        "description": "Start small (30 min daytime). Vertical strip across lips. Ensure nose clear. Test comfort."
+      },
+      {
+        "id": "mouth-f3",
+        "type": "guide",
+        "name": "Nasal Breathing Benefits",
+        "url": "https://www.health.harvard.edu/blog/the-importance-of-nasal-breathing-2020100521045",
+        "description": "Filters air, warms/humidifies, produces nitric oxide (dilates blood vessels), improves O2 absorption."
+      },
+      {
+        "id": "mouth-f4",
+        "type": "youtube",
+        "name": "Buteyko Breathing Method",
+        "videoId": "gMbJ8iRF-gY",
+        "description": "Train nasal breathing during day. Breath hold exercises. Reduce sleep apnea symptoms."
+      },
+      {
+        "id": "mouth-f5",
+        "type": "guide",
+        "name": "When NOT to Mouth Tape",
+        "url": "https://www.sleepfoundation.org/physical-health/mouth-taping",
+        "description": "Don't tape if: nasal congestion, sleep apnea (untreated), obesity, alcohol consumption."
+      }
+    ]
+  }
+}

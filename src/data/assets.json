@@ -1,0 +1,1928 @@
+{
+  "sleep": {
+    "premium": [
+      {
+        "id": "sleep-p1",
+        "name": "Eight Sleep Pod 4 Ultra",
+        "description": "AI-powered temperature regulating mattress cover. Sleep optimization through precision thermal control.",
+        "price": "$2,495",
+        "image": "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=400",
+        "affiliateLink": "https://www.eightsleep.com/product/pod-4-ultra",
+        "platform": "Eight Sleep",
+        "badge": "Premium Choice"
+      },
+      {
+        "id": "sleep-p2",
+        "name": "Oura Ring Gen3",
+        "description": "Advanced sleep tracking with readiness scores, HRV monitoring, and temperature sensing.",
+        "price": "$299",
+        "image": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=400",
+        "affiliateLink": "https://ouraring.com/product/heritage-silver",
+        "platform": "Oura",
+        "badge": "Trending"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "sleep-m1",
+        "name": "Philips SmartSleep Wake-up Light",
+        "description": "Simulated sunrise alarm clock with natural wake-up experience and sleep tracking.",
+        "price": "$149",
+        "image": "https://images.unsplash.com/photo-1567016432779-094069958ea5?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B0093162RM",
+        "platform": "Amazon",
+        "badge": null
+      },
+      {
+        "id": "sleep-m2",
+        "name": "Magnesium Glycinate Sleep Complex",
+        "description": "High-absorption magnesium with L-theanine for deep, restorative sleep without grogginess.",
+        "price": "$34",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B08NCXJHVR",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      }
+    ],
+    "budget": [
+      {
+        "id": "sleep-b1",
+        "name": "Manta Sleep Mask",
+        "description": "100% blackout eye mask with zero eye pressure. Engineered for side sleepers.",
+        "price": "$35",
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B07MKRG21K",
+        "platform": "Amazon",
+        "badge": null
+      }
+    ],
+    "free_resources": [
+      {
+        "id": "sleep-f1",
+        "type": "youtube",
+        "name": "10-Hour Deep Sleep Brown Noise",
+        "videoId": "RqzGzwTY-6w",
+        "description": "Clinical-grade brown noise for continuous deep sleep cycles."
+      },
+      {
+        "id": "sleep-f2",
+        "type": "guide",
+        "name": "Andrew Huberman Sleep Protocol",
+        "url": "https://www.hubermanlab.com/newsletter/toolkit-for-sleep",
+        "description": "Science-backed sleep optimization guide from Stanford neuroscientist."
+      }
+    ]
+  },
+  "exercise": {
+    "premium": [
+      {
+        "id": "exercise-p1",
+        "name": "Tonal Smart Home Gym",
+        "description": "Digital strength training with AI coaching, 200lbs resistance, real-time form feedback.",
+        "price": "$3,495",
+        "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400",
+        "affiliateLink": "https://www.tonal.com",
+        "platform": "Tonal",
+        "badge": "Premium Choice"
+      },
+      {
+        "id": "exercise-p2",
+        "name": "Theragun PRO Plus",
+        "description": "Professional-grade percussive therapy for muscle recovery and performance optimization.",
+        "price": "$599",
+        "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400",
+        "affiliateLink": "https://www.therabody.com/us/en-us/theragun-pro-plus.html",
+        "platform": "Therabody",
+        "badge": "Trending"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "exercise-m1",
+        "name": "Bowflex SelectTech 552 Dumbbells",
+        "description": "Adjustable dumbbells 5-52.5lbs. Replace 15 sets of weights for complete home training.",
+        "price": "$349",
+        "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B001ARYU58",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      },
+      {
+        "id": "exercise-m2",
+        "name": "Whoop 4.0 Fitness Tracker",
+        "description": "24/7 strain, recovery, and sleep tracking. Optimize training with personalized insights.",
+        "price": "$239/year",
+        "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400",
+        "affiliateLink": "https://join.whoop.com",
+        "platform": "Whoop",
+        "badge": null
+      }
+    ],
+    "budget": [
+      {
+        "id": "exercise-b1",
+        "name": "TRX HOME2 Suspension Training Kit",
+        "description": "Bodyweight resistance training system. Complete workout anywhere, anytime.",
+        "price": "$129",
+        "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B07VQKN1ZN",
+        "platform": "Amazon",
+        "badge": null
+      }
+    ],
+    "free_resources": [
+      {
+        "id": "exercise-f1",
+        "type": "youtube",
+        "name": "20-Min HIIT Full Body Workout",
+        "videoId": "M0uO8X3_tEA",
+        "description": "No equipment needed. High-intensity training for maximum results."
+      },
+      {
+        "id": "exercise-f2",
+        "type": "guide",
+        "name": "Starting Strength PDF Guide",
+        "url": "https://startingstrength.com/get-started/programs",
+        "description": "Foundation barbell training program for building strength systematically."
+      }
+    ]
+  },
+  "skincare": {
+    "premium": [
+      {
+        "id": "skincare-p1",
+        "name": "SkinCeuticals C E Ferulic Serum",
+        "description": "Clinical-strength vitamin C antioxidant. Gold standard anti-aging protection.",
+        "price": "$182",
+        "image": "https://images.unsplash.com/photo-1556228852-80c83f7160a3?w=400",
+        "affiliateLink": "https://www.skinceuticals.com/c-e-ferulic-635494263008.html",
+        "platform": "SkinCeuticals",
+        "badge": "Premium Choice"
+      },
+      {
+        "id": "skincare-p2",
+        "name": "Dr. Dennis Gross LED Mask",
+        "description": "FDA-cleared LED therapy. Red + blue light for wrinkles and acne.",
+        "price": "$455",
+        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400",
+        "affiliateLink": "https://www.drdennisgross.com/spectralite-faceware-pro",
+        "platform": "Dr. Dennis Gross",
+        "badge": "Trending"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "skincare-m1",
+        "name": "The Ordinary Buffet + Copper Peptides",
+        "description": "Multi-peptide serum for comprehensive anti-aging.",
+        "price": "$29",
+        "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B06XFG21GY",
+        "platform": "Amazon",
+        "badge": "Best Value"
+      },
+      {
+        "id": "skincare-m2",
+        "name": "CeraVe Moisturizing Cream",
+        "description": "Dermatologist-developed ceramides and hyaluronic acid. 24-hour hydration.",
+        "price": "$19",
+        "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B00TTD9BRC",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      }
+    ],
+    "budget": [
+      {
+        "id": "skincare-b1",
+        "name": "Neutrogena Hydro Boost Water Gel",
+        "description": "Oil-free hyaluronic acid moisturizer. Instant hydration.",
+        "price": "$16",
+        "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B00NR1YQK4",
+        "platform": "Amazon",
+        "badge": null
+      }
+    ],
+    "free_resources": [
+      {
+        "id": "skincare-f1",
+        "type": "guide",
+        "name": "Men's Advanced Routine (5-Step)",
+        "url": "https://www.reddit.com/r/SkincareAddiction/wiki/sca_routine/",
+        "description": "Cleanser → Toner → Serum → Moisturizer → SPF 50. Evidence-based product order."
+      },
+      {
+        "id": "skincare-f2",
+        "type": "guide",
+        "name": "Men's Medium Routine (3-Step)",
+        "url": "https://www.reddit.com/r/SkincareAddiction/wiki/sca_routine/",
+        "description": "Cleanser → Moisturizer → SPF 30. Morning essentials for busy professionals."
+      },
+      {
+        "id": "skincare-f3",
+        "type": "guide",
+        "name": "Men's Basic Routine (2-Step)",
+        "url": "https://www.reddit.com/r/SkincareAddiction/wiki/sca_routine/",
+        "description": "Gentle cleanser + SPF moisturizer combo. Minimal routine, maximum results."
+      },
+      {
+        "id": "skincare-f4",
+        "type": "guide",
+        "name": "Women's Advanced Routine",
+        "url": "https://www.reddit.com/r/SkincareAddiction/wiki/sca_routine/",
+        "description": "Double cleanse → Essence → Treatment → Eye cream → Moisturizer → SPF."
+      },
+      {
+        "id": "skincare-f5",
+        "type": "youtube",
+        "name": "Dermatologist Morning Routine",
+        "videoId": "voAJF171IwA",
+        "description": "Science-backed sequence from Dr. Sam Ellis. Product layering explained."
+      },
+      {
+        "id": "skincare-f6",
+        "type": "guide",
+        "name": "Skin Type Quiz + Product Matcher",
+        "url": "https://www.paulaschoice.com/skin-type-quiz",
+        "description": "Identify your skin type (oily/dry/combo). Get personalized product recommendations."
+      }
+    ]
+  },
+  "breathing": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "breathing-f1",
+        "type": "youtube",
+        "name": "Box Breathing (4-4-4-4) - Navy SEAL Technique",
+        "videoId": "GZzhk9jEkkI",
+        "description": "Inhale 4s → Hold 4s → Exhale 4s → Hold 4s. Instant calm and focus."
+      },
+      {
+        "id": "breathing-f2",
+        "type": "youtube",
+        "name": "Wim Hof Method (3 Rounds Guided)",
+        "videoId": "tybOi4hjZFQ",
+        "description": "30 deep breaths → Exhale and hold → Recovery breath. Energy + stress relief."
+      },
+      {
+        "id": "breathing-f3",
+        "type": "youtube",
+        "name": "Alternate Nostril Breathing (Nadi Shodhana)",
+        "videoId": "8VwufJrUhic",
+        "description": "Balance left/right brain. Calm nervous system. 5 minutes daily."
+      },
+      {
+        "id": "breathing-f4",
+        "type": "guide",
+        "name": "Pranayama Complete Guide",
+        "url": "https://www.artofliving.org/us-en/yoga/breathing-techniques/pranayama",
+        "description": "Ancient yogic breathing for health, energy, mental clarity. Step-by-step."
+      },
+      {
+        "id": "breathing-f5",
+        "type": "guide",
+        "name": "Built-in Timer Instructions",
+        "url": "#",
+        "description": "Use phone timer or Insight Timer app. Visual cues: Inhale (expand circle) → Hold → Exhale (contract)."
+      }
+    ]
+  },
+  "meditation": {
+    "premium": [
+      {
+        "id": "meditation-p1",
+        "name": "Muse S Headband (Gen 2)",
+        "description": "EEG brain-sensing meditation device. Real-time neurofeedback for deeper practice.",
+        "price": "$399",
+        "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=400",
+        "affiliateLink": "https://choosemuse.com/products/muse-s-gen-2",
+        "platform": "Muse",
+        "badge": "Premium Choice"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "meditation-m1",
+        "name": "Headspace Annual Subscription",
+        "description": "Guided meditation, mindfulness exercises, sleep sounds. Proven stress reduction.",
+        "price": "$69.99/year",
+        "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400",
+        "affiliateLink": "https://www.headspace.com/subscriptions",
+        "platform": "Headspace",
+        "badge": "Best Value"
+      }
+    ],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "meditation-f1",
+        "type": "youtube",
+        "name": "5-Min Beginner Meditation (Breathing Focus)",
+        "videoId": "inpok4MKVLM",
+        "description": "Quick daily meditation for beginners. Focus on breath awareness and present moment."
+      },
+      {
+        "id": "meditation-f2",
+        "type": "youtube",
+        "name": "10-Min Breathwork Meditation (Wim Hof Style)",
+        "videoId": "tybOi4hjZFQ",
+        "description": "Energizing breathwork session. 3 rounds of powerful breathing for clarity and energy."
+      },
+      {
+        "id": "meditation-f3",
+        "type": "youtube",
+        "name": "20-Min Body Scan Meditation (Full Relaxation)",
+        "videoId": "QS2yDmWk0vs",
+        "description": "Deep body scan for complete relaxation. Release tension from head to toe."
+      },
+      {
+        "id": "meditation-f4",
+        "type": "youtube",
+        "name": "Tibetan Singing Bowl Meditation (1 Hour)",
+        "videoId": "3XtQ3bCxvis",
+        "description": "Pure healing frequencies for deep meditation and relaxation."
+      },
+      {
+        "id": "meditation-f5",
+        "type": "guide",
+        "name": "Sam Harris: Waking Up Free Course",
+        "url": "https://www.wakingup.com/free-access",
+        "description": "Neuroscientist's meditation app with free scholarship access available."
+      },
+      {
+        "id": "meditation-f6",
+        "type": "guide",
+        "name": "Headspace Free Trial (14 Days)",
+        "url": "https://www.headspace.com/join",
+        "description": "Guided meditations for sleep, stress, focus. 14-day full access trial."
+      },
+      {
+        "id": "meditation-f7",
+        "type": "guide",
+        "name": "Insight Timer (100% Free Forever)",
+        "url": "https://insighttimer.com/",
+        "description": "World's largest free meditation library. 130k+ guided meditations, music, talks."
+      }
+    ]
+  },
+  "reading": {
+    "premium": [
+      {
+        "id": "reading-p1",
+        "name": "reMarkable 2 Paper Tablet",
+        "description": "Digital paper for distraction-free reading and note-taking. E-ink display feels like paper.",
+        "price": "$399",
+        "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400",
+        "affiliateLink": "https://remarkable.com/store/remarkable-2",
+        "platform": "reMarkable",
+        "badge": "Premium Choice"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "reading-m1",
+        "name": "Kindle Paperwhite Signature Edition",
+        "description": "7-inch glare-free display, auto-adjusting light, wireless charging. 32GB storage.",
+        "price": "$189",
+        "image": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B08N3J8GTX",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      },
+      {
+        "id": "reading-m2",
+        "name": "Blinkist Premium Annual",
+        "description": "15-minute key insights from 6,500+ bestsellers. Audio + text for busy professionals.",
+        "price": "$89.99/year",
+        "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400",
+        "affiliateLink": "https://www.blinkist.com/en/nc/partners/growth",
+        "platform": "Blinkist",
+        "badge": "Trending"
+      }
+    ],
+    "budget": [
+      {
+        "id": "reading-b1",
+        "name": "Book Darts Line Markers (125 pack)",
+        "description": "Precision brass bookmarks for marking important passages without damage.",
+        "price": "$16",
+        "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B001HBHNYI",
+        "platform": "Amazon",
+        "badge": null
+      }
+    ],
+    "free_resources": [
+      {
+        "id": "reading-f1",
+        "type": "guide",
+        "name": "How to Read a Book (Mortimer Adler Method)",
+        "url": "https://fs.blog/how-to-read-a-book/",
+        "description": "Classical framework for analytical reading and knowledge retention."
+      },
+      {
+        "id": "reading-f2",
+        "type": "guide",
+        "name": "Naval's Book List & Reading Guide",
+        "url": "https://www.navalmanack.com/almanack-of-naval-ravikant/reading",
+        "description": "Curated recommendations from entrepreneur Naval Ravikant on foundational books."
+      }
+    ]
+  },
+  "walking": {
+    "premium": [
+      {
+        "id": "walking-p1",
+        "name": "On Cloudmonster Running Shoes",
+        "description": "Swiss-engineered CloudTec cushioning. Maximum energy return for effortless 10K steps.",
+        "price": "$179",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+        "affiliateLink": "https://www.on-running.com/en-us/products/cloudmonster",
+        "platform": "On Running",
+        "badge": "Premium Choice"
+      },
+      {
+        "id": "walking-p2",
+        "name": "Garmin Fenix 7X Solar",
+        "description": "Premium multisport GPS watch with solar charging, mapping, and advanced metrics.",
+        "price": "$899",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B09NPYBY4Z",
+        "platform": "Amazon",
+        "badge": "Trending"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "walking-m1",
+        "name": "Fitbit Charge 6",
+        "description": "Built-in GPS, heart rate zones, active zone minutes. 7-day battery for consistent tracking.",
+        "price": "$159",
+        "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B0CCQ79B7R",
+        "platform": "Amazon",
+        "badge": "Best Value"
+      }
+    ],
+    "budget": [
+      {
+        "id": "walking-b1",
+        "name": "ASICS Gel-Venture 8 Trail Shoes",
+        "description": "Durable trail running shoes with gel cushioning. All-terrain support for daily steps.",
+        "price": "$65",
+        "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B08GCC4C4X",
+        "platform": "Amazon",
+        "badge": null
+      }
+    ],
+    "free_resources": [
+      {
+        "id": "walking-f1",
+        "type": "youtube",
+        "name": "Walking Workout Music Mix (1 Hour)",
+        "videoId": "2yDvzUU2pNA",
+        "description": "Upbeat walking music at perfect BPM for maintaining consistent 10K step pace."
+      },
+      {
+        "id": "walking-f2",
+        "type": "guide",
+        "name": "10,000 Steps Science & Benefits",
+        "url": "https://www.health.harvard.edu/staying-healthy/10000-steps-a-day-or-fewer",
+        "description": "Harvard Medical School research on daily step goals and longevity benefits."
+      }
+    ]
+  },
+  "nutrition": {
+    "premium": [
+      {
+        "id": "nutrition-p1",
+        "name": "InsideTracker DNA & Blood Analysis",
+        "description": "Personalized nutrition plan based on 43 biomarkers + genetic analysis. Precision health optimization.",
+        "price": "$589",
+        "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=400",
+        "affiliateLink": "https://www.insidetracker.com/plans",
+        "platform": "InsideTracker",
+        "badge": "Premium Choice"
+      },
+      {
+        "id": "nutrition-p2",
+        "name": "Athletic Greens AG1",
+        "description": "All-in-one nutritional insurance. 75 vitamins, minerals, probiotics in one daily scoop.",
+        "price": "$99/month",
+        "image": "https://images.unsplash.com/photo-1610970881699-44a5587cabec?w=400",
+        "affiliateLink": "https://www.athleticgreens.com",
+        "platform": "AG1",
+        "badge": "Trending"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "nutrition-m1",
+        "name": "MyFitnessPal Premium Annual",
+        "description": "Advanced macro tracking, meal planning, and nutrition insights. 14M+ food database.",
+        "price": "$79.99/year",
+        "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400",
+        "affiliateLink": "https://www.myfitnesspal.com/premium",
+        "platform": "MyFitnessPal",
+        "badge": "Best Value"
+      }
+    ],
+    "budget": [
+      {
+        "id": "nutrition-b1",
+        "name": "Optimum Nutrition Whey Protein",
+        "description": "Gold standard protein powder. 24g protein per serving for muscle recovery and satiety.",
+        "price": "$59",
+        "image": "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B000QSNYGI",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      }
+    ],
+    "free_resources": [
+      {
+        "id": "nutrition-f1",
+        "type": "youtube",
+        "name": "Dr. Rhonda Patrick: Micronutrient Smoothie",
+        "videoId": "Ys86ZgjQQYg",
+        "description": "Nutrient-dense smoothie recipe from PhD nutritional biochemist."
+      },
+      {
+        "id": "nutrition-f2",
+        "type": "guide",
+        "name": "Precision Nutrition Macro Calculator",
+        "url": "https://www.precisionnutrition.com/nutrition-calculator",
+        "description": "Science-based calculator for personalized calorie and macro targets."
+      }
+    ]
+  },
+  "default": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "default-f1",
+        "type": "guide",
+        "name": "Habit Stacking Guide",
+        "url": "https://jamesclear.com/habit-stacking",
+        "description": "James Clear's method for building new habits by linking to existing routines."
+      }
+    ]
+  },
+  "scent": {
+    "premium": [
+      {
+        "id": "scent-p1",
+        "name": "Creed Aventus",
+        "description": "Iconic niche fragrance. Pineapple, birch, musk. Year-round powerhouse.",
+        "price": "$445",
+        "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=400",
+        "affiliateLink": "https://www.fragrancex.com/products/creed-aventus",
+        "platform": "FragranceX",
+        "badge": "Premium Choice"
+      },
+      {
+        "id": "scent-p2",
+        "name": "Tom Ford Oud Wood",
+        "description": "Exotic oud blend. Rosewood, cardamom, sandalwood. Evening sophistication.",
+        "price": "$250",
+        "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=400",
+        "affiliateLink": "https://www.sephora.com/product/oud-wood-P387060",
+        "platform": "Sephora",
+        "badge": "Trending"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "scent-m1",
+        "name": "Dior Sauvage EDT",
+        "description": "Modern classic. Fresh pepper, bergamot, ambroxan. Mass appeal.",
+        "price": "$95",
+        "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B00U9QQ3EY",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      },
+      {
+        "id": "scent-m2",
+        "name": "Bleu de Chanel EDP",
+        "description": "Sophisticated woody aromatic. Citrus, cedar, sandalwood. Office-appropriate.",
+        "price": "$115",
+        "image": "https://images.unsplash.com/photo-1595425959632-34f2822322ce?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B00I229N4W",
+        "platform": "Amazon",
+        "badge": null
+      }
+    ],
+    "budget": [
+      {
+        "id": "scent-b1",
+        "name": "Versace Eros",
+        "description": "Sweet fresh fragrance. Mint, vanilla, tonka. Club/date night.",
+        "price": "$65",
+        "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B00IJ0DSXI",
+        "platform": "Amazon",
+        "badge": "Best Value"
+      },
+      {
+        "id": "scent-b2",
+        "name": "Nautica Voyage",
+        "description": "Clean aquatic scent. Apple, lotus, musk. Daily driver.",
+        "price": "$25",
+        "image": "https://images.unsplash.com/photo-1588405748880-12d1d2a59926?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B000P2371C",
+        "platform": "Amazon",
+        "badge": null
+      }
+    ],
+    "free_resources": [
+      {
+        "id": "scent-f1",
+        "type": "guide",
+        "name": "Season-Appropriate Fragrances",
+        "url": "https://www.fragrantica.com/news/The-Fragrance-Wardrobe-Guide-15478.html",
+        "description": "Spring: Fresh citrus. Summer: Aquatic. Fall: Spicy. Winter: Woody/oriental."
+      },
+      {
+        "id": "scent-f2",
+        "type": "guide",
+        "name": "Layering Techniques for Longevity",
+        "url": "https://www.fragrantica.com/news/How-to-Layer-Fragrances-Like-a-Pro-14829.html",
+        "description": "Shower gel → Lotion → Fragrance. Apply to pulse points (wrists, neck, chest)."
+      },
+      {
+        "id": "scent-f3",
+        "type": "youtube",
+        "name": "Application & Projection Guide",
+        "videoId": "OW7rKSzJ5ng",
+        "description": "Spray distance, number of sprays, heat points diagram. Jeremy Fragrance tutorial."
+      }
+    ]
+  },
+  "dress_sharp": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "dress-f1",
+        "type": "guide",
+        "name": "Body Type Guide (Ectomorph/Meso/Endomorph)",
+        "url": "https://www.realmenrealstyle.com/body-types-men/",
+        "description": "Ectomorph: Fitted cuts. Mesomorph: Tailored fit. Endomorph: Structured pieces."
+      },
+      {
+        "id": "dress-f2",
+        "type": "guide",
+        "name": "Color Matching Wheel",
+        "url": "https://www.primermagazine.com/2012/spend/understanding-color",
+        "description": "Complementary colors (blue/orange). Analogous (blue/green). Neutral anchors (navy, gray, black)."
+      },
+      {
+        "id": "dress-f3",
+        "type": "guide",
+        "name": "Occasion-Based Outfits",
+        "url": "https://www.realmenrealstyle.com/dress-codes-men/",
+        "description": "Casual: Jeans + polo. Business: Suit + tie. Formal: Tuxedo + bow tie."
+      },
+      {
+        "id": "dress-f4",
+        "type": "guide",
+        "name": "Wardrobe Essentials Checklist",
+        "url": "https://www.artofmanliness.com/style/clothing/building-a-versatile-wardrobe/",
+        "description": "White/blue dress shirts, navy blazer, dark jeans, brown leather shoes, watch, belt."
+      },
+      {
+        "id": "dress-f5",
+        "type": "youtube",
+        "name": "How Clothes Should Fit",
+        "videoId": "Qe3oJnFtA_k",
+        "description": "Shoulder seam alignment, sleeve length, jacket break, trouser hem. Alpha M guide."
+      },
+      {
+        "id": "dress-f6",
+        "type": "guide",
+        "name": "Budget Shopping Guide",
+        "url": "https://www.reddit.com/r/malefashionadvice/wiki/itemguides/",
+        "description": "Uniqlo (basics), H&M (trendy), Zara (smart casual), J.Crew (business)."
+      }
+    ]
+  },
+  "stretching": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "stretch-f1",
+        "type": "youtube",
+        "name": "5-Min Full Body Beginner Stretch",
+        "videoId": "g_tea8ZNk5A",
+        "description": "Neck rolls, shoulder circles, cat-cow, hamstring stretch, quad stretch."
+      },
+      {
+        "id": "stretch-f2",
+        "type": "youtube",
+        "name": "10-Min Intermediate Targeted Stretch",
+        "videoId": "qULTwquOuT4",
+        "description": "Hip flexors, piriformis, thoracic spine, calf raises. Injury prevention."
+      },
+      {
+        "id": "stretch-f3",
+        "type": "youtube",
+        "name": "15-Min Advanced Dynamic Stretching",
+        "videoId": "d5aF9J7HJRs",
+        "description": "Leg swings, arm circles, walking lunges, high knees. Pre-workout activation."
+      },
+      {
+        "id": "stretch-f4",
+        "type": "guide",
+        "name": "Stretching Routine with Timer",
+        "url": "https://www.nerdfitness.com/blog/the-5-minute-morning-mobility-routine/",
+        "description": "30 seconds per stretch. Hold, don't bounce. Breathe deeply throughout."
+      }
+    ]
+  },
+  "ppl_training": {
+    "premium": [
+      {
+        "id": "ppl-p1",
+        "name": "Bowflex SelectTech Dumbbells",
+        "description": "Adjustable 5-52.5lbs. Replace 15 sets of weights.",
+        "price": "$349",
+        "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B001ARYU58",
+        "platform": "Amazon",
+        "badge": "Premium Choice"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "ppl-m1",
+        "name": "Resistance Bands Set",
+        "description": "5 levels of resistance. Full-body workout anywhere.",
+        "price": "$29",
+        "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B08R5T6LGT",
+        "platform": "Amazon",
+        "badge": "Best Value"
+      }
+    ],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "ppl-f1",
+        "type": "guide",
+        "name": "PUSH Day: Chest, Shoulders, Triceps",
+        "url": "https://www.muscleandstrength.com/workouts/phat-workout-program",
+        "description": "Bench Press 4x8 → Overhead Press 3x10 → Tricep Dips 3x12. Progressive overload."
+      },
+      {
+        "id": "ppl-f2",
+        "type": "guide",
+        "name": "PULL Day: Back, Biceps",
+        "url": "https://www.muscleandstrength.com/workouts/phat-workout-program",
+        "description": "Deadlift 4x6 → Barbell Rows 4x8 → Pull-ups 3xMax → Bicep Curls 3x12."
+      },
+      {
+        "id": "ppl-f3",
+        "type": "guide",
+        "name": "LEGS Day: Quads, Hamstrings, Calves",
+        "url": "https://www.muscleandstrength.com/workouts/phat-workout-program",
+        "description": "Squats 4x8 → Leg Press 3x12 → Romanian Deadlift 3x10 → Calf Raises 4x15."
+      },
+      {
+        "id": "ppl-f4",
+        "type": "youtube",
+        "name": "Beginner: Bodyweight PPL Alternatives",
+        "videoId": "vc1E5CfRfos",
+        "description": "Push-ups, pike push-ups, diamond push-ups, inverted rows, bodyweight squats."
+      },
+      {
+        "id": "ppl-f5",
+        "type": "youtube",
+        "name": "Advanced: Barbell Compound Form Check",
+        "videoId": "rT7DgCr-3pg",
+        "description": "Bench, squat, deadlift technique breakdown. Jeff Nippard tutorial."
+      }
+    ]
+  },
+  "protein": {
+    "premium": [
+      {
+        "id": "protein-p1",
+        "name": "Optimum Nutrition Gold Standard Whey",
+        "description": "24g protein per serving. Post-workout muscle recovery.",
+        "price": "$59",
+        "image": "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B000QSNYGI",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      }
+    ],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "protein-f1",
+        "type": "guide",
+        "name": "High-Protein Foods (Non-Veg)",
+        "url": "https://www.healthline.com/nutrition/20-delicious-high-protein-foods",
+        "description": "Chicken breast 31g/100g, Eggs 13g/100g, Salmon 25g/100g, Greek yogurt 10g/100g."
+      },
+      {
+        "id": "protein-f2",
+        "type": "guide",
+        "name": "High-Protein Foods (Veg)",
+        "url": "https://www.healthline.com/nutrition/protein-for-vegans-vegetarians",
+        "description": "Lentils 9g/100g, Tofu 8g/100g, Chickpeas 19g/100g, Quinoa 4g/100g."
+      },
+      {
+        "id": "protein-f3",
+        "type": "guide",
+        "name": "Protein Calculator",
+        "url": "https://www.calculator.net/protein-calculator.html",
+        "description": "Enter weight → Get daily target (0.8-1g per lb for muscle gain). Meal examples hitting target."
+      },
+      {
+        "id": "protein-f4",
+        "type": "guide",
+        "name": "Protein Supplements Comparison",
+        "url": "https://examine.com/supplements/whey-protein/",
+        "description": "Whey (fast), Casein (slow), Plant-based (lactose-free). When to use each."
+      }
+    ]
+  },
+  "journaling": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "journal-f1",
+        "type": "guide",
+        "name": "Gratitude Prompts (10 Questions)",
+        "url": "https://positivepsychology.com/gratitude-journal/",
+        "description": "What made you smile today? Who are you grateful for? What challenge taught you something?"
+      },
+      {
+        "id": "journal-f2",
+        "type": "guide",
+        "name": "Reflection Questions (Self-Awareness)",
+        "url": "https://www.intelligentchange.com/blogs/read/powerful-self-reflection-questions",
+        "description": "What did I learn today? What could I improve? What am I avoiding?"
+      },
+      {
+        "id": "journal-f3",
+        "type": "guide",
+        "name": "Goal-Setting Templates (SMART)",
+        "url": "https://www.mindtools.com/pages/article/smart-goals.htm",
+        "description": "Specific, Measurable, Achievable, Relevant, Time-bound. Quarterly review framework."
+      },
+      {
+        "id": "journal-f4",
+        "type": "guide",
+        "name": "Stoic Journaling (Marcus Aurelius Method)",
+        "url": "https://dailystoic.com/stoic-journaling/",
+        "description": "Morning: What obstacles will I face? Evening: What did I do well? What could improve?"
+      },
+      {
+        "id": "journal-f5",
+        "type": "youtube",
+        "name": "Morning Pages Method (Julia Cameron)",
+        "videoId": "5uQjbp8nKmU",
+        "description": "3 pages stream-of-consciousness writing. Brain dump. Creative unblocking."
+      }
+    ]
+  },
+  "water": {
+    "premium": [
+      {
+        "id": "water-p1",
+        "name": "HidrateSpark PRO Smart Bottle",
+        "description": "Tracks intake, glows to remind you, syncs to app. 21oz stainless steel.",
+        "price": "$80",
+        "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B08KY1M3T3",
+        "platform": "Amazon",
+        "badge": "Trending"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "water-m1",
+        "name": "1 Gallon Motivational Water Bottle",
+        "description": "Time markers for daily tracking. BPA-free. Leak-proof.",
+        "price": "$18",
+        "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B07WNXVG8F",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      }
+    ],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "water-f1",
+        "type": "guide",
+        "name": "Hydration Calculator by Weight",
+        "url": "https://www.calculator.net/water-intake-calculator.html",
+        "description": "Body weight ÷ 2 = oz per day. Add 12oz per 30min exercise."
+      },
+      {
+        "id": "water-f2",
+        "type": "guide",
+        "name": "Infused Water Recipes",
+        "url": "https://www.eatingwell.com/gallery/7880617/infused-water-recipes/",
+        "description": "Lemon + mint, cucumber + lime, strawberry + basil, orange + blueberry."
+      },
+      {
+        "id": "water-f3",
+        "type": "guide",
+        "name": "Electrolyte Powder Recommendations",
+        "url": "https://www.amazon.com/LMNT-Recharge-Electrolyte-Hydration-Powder/dp/B07RPC1ZKN",
+        "description": "LMNT (keto-friendly), Liquid IV (vitamin-enhanced), Nuun (low-cal)."
+      },
+      {
+        "id": "water-f4",
+        "type": "guide",
+        "name": "When to Drink Guide",
+        "url": "https://www.healthline.com/nutrition/how-much-water-should-you-drink-per-day",
+        "description": "Morning: 16oz upon waking. Pre-workout: 8oz 30min before. Post-workout: 24oz."
+      }
+    ]
+  },
+  "no_alcohol": {
+    "premium": [],
+    "mid_range": [
+      {
+        "id": "alcohol-m1",
+        "name": "Athletic Brewing Non-Alcoholic Beer (12-pack)",
+        "description": "Award-winning craft NA beer. <0.5% ABV. Tastes like real beer.",
+        "price": "$22",
+        "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B08L6KVFG8",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      }
+    ],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "alcohol-f1",
+        "type": "youtube",
+        "name": "Mocktail Recipe: Virgin Mojito",
+        "videoId": "kWgFBZMb7Hs",
+        "description": "Lime, mint, soda water, simple syrup. Party-friendly. 2-min prep."
+      },
+      {
+        "id": "alcohol-f2",
+        "type": "youtube",
+        "name": "Mocktail Recipe: Negroni Sbagliato (Alcohol-Free)",
+        "videoId": "R8i4rVvISkw",
+        "description": "Tonic, bitter orange, rosemary. Sophisticated adult drink."
+      },
+      {
+        "id": "alcohol-f3",
+        "type": "guide",
+        "name": "Quit Lit: Alcohol Explained Book",
+        "url": "https://www.amazon.com/Alcohol-Explained-William-Porter/dp/1516997190",
+        "description": "Science of addiction, withdrawal, how to quit. 5-star rated."
+      },
+      {
+        "id": "alcohol-f4",
+        "type": "guide",
+        "name": "r/stopdrinking Community Support",
+        "url": "https://www.reddit.com/r/stopdrinking/",
+        "description": "500k+ members. Daily check-ins. Success stories. Badge system."
+      },
+      {
+        "id": "alcohol-f5",
+        "type": "guide",
+        "name": "Habit Replacement Strategies",
+        "url": "https://jamesclear.com/habit-stacking",
+        "description": "Replace drink cue with kombucha, sparkling water, herbal tea. Same ritual, no alcohol."
+      }
+    ]
+  },
+  "organic": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "organic-f1",
+        "type": "guide",
+        "name": "Dirty Dozen (Must Buy Organic)",
+        "url": "https://www.ewg.org/foodnews/dirty-dozen.php",
+        "description": "Strawberries, spinach, kale, apples, grapes, peaches, cherries, pears, tomatoes, celery, potatoes, peppers."
+      },
+      {
+        "id": "organic-f2",
+        "type": "guide",
+        "name": "Clean Fifteen (OK to Buy Conventional)",
+        "url": "https://www.ewg.org/foodnews/clean-fifteen.php",
+        "description": "Avocados, corn, pineapple, onions, papaya, peas, eggplant, asparagus, broccoli, cabbage, kiwi, cauliflower, mushrooms, melon, carrots."
+      },
+      {
+        "id": "organic-f3",
+        "type": "guide",
+        "name": "Printable Shopping List",
+        "url": "https://www.ewg.org/foodnews/full-list.php",
+        "description": "Download PDF. Bring to grocery store. Check pesticide residue rankings."
+      },
+      {
+        "id": "organic-f4",
+        "type": "guide",
+        "name": "Where to Shop: Thrive Market",
+        "url": "https://thrivemarket.com/",
+        "description": "Organic groceries delivered. 25-50% off retail. $5/month membership."
+      },
+      {
+        "id": "organic-f5",
+        "type": "guide",
+        "name": "Budget Tip: Frozen Organic",
+        "url": "https://www.healthline.com/nutrition/fresh-vs-frozen-fruit-and-vegetables",
+        "description": "Flash-frozen retains nutrients. 50% cheaper than fresh organic. Buy bulk."
+      }
+    ]
+  },
+  "meal_prep": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "meal-f1",
+        "type": "youtube",
+        "name": "Breakfast: High-Protein Egg Bites (Meal Prep)",
+        "videoId": "fX5fP-9nT6I",
+        "description": "12 eggs, cheese, veggies. Muffin tin. 350°F, 20min. Freeze for week."
+      },
+      {
+        "id": "meal-f2",
+        "type": "youtube",
+        "name": "Lunch: Chicken Rice Bowls (5 Days)",
+        "videoId": "XFVdR9jPMR0",
+        "description": "Grilled chicken, brown rice, broccoli, teriyaki sauce. Containers ready."
+      },
+      {
+        "id": "meal-f3",
+        "type": "youtube",
+        "name": "Dinner: Salmon + Sweet Potato + Asparagus",
+        "videoId": "hLDQ4VTh6cs",
+        "description": "Sheet pan meal. 425°F, 15min. 40g protein, omega-3s, fiber."
+      },
+      {
+        "id": "meal-f4",
+        "type": "guide",
+        "name": "50 High-Protein Foods List",
+        "url": "https://www.healthline.com/nutrition/20-delicious-high-protein-foods",
+        "description": "Chicken 31g, Tuna 30g, Salmon 25g, Greek yogurt 10g, Cottage cheese 11g, Lentils 9g."
+      },
+      {
+        "id": "meal-f5",
+        "type": "youtube",
+        "name": "Meal Prep Sunday Full Routine",
+        "videoId": "sS9nT5xNY0Y",
+        "description": "3 hours, all meals planned. Shopping list, cooking sequence, storage tips."
+      }
+    ]
+  },
+  "no_sugar": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "sugar-f1",
+        "type": "guide",
+        "name": "Hidden Sugar Foods List",
+        "url": "https://www.healthline.com/nutrition/foods-with-high-sugar",
+        "description": "Ketchup (4g/tbsp), BBQ sauce (6g/tbsp), yogurt (12g/cup), granola bars (8g/bar)."
+      },
+      {
+        "id": "sugar-f2",
+        "type": "guide",
+        "name": "How to Read Nutrition Labels",
+        "url": "https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+        "description": "Check 'Added Sugars' line. <25g per day (women), <36g (men). 4g = 1 tsp."
+      },
+      {
+        "id": "sugar-f3",
+        "type": "guide",
+        "name": "Sugar Aliases (56 Names)",
+        "url": "https://sugarscience.ucsf.edu/hidden-in-plain-sight/",
+        "description": "Dextrose, maltose, corn syrup, agave, honey, molasses, cane juice, fructose."
+      },
+      {
+        "id": "sugar-f4",
+        "type": "guide",
+        "name": "Healthy Swaps",
+        "url": "https://www.healthline.com/nutrition/how-to-quit-sugar",
+        "description": "Soda → Zevia. Candy → Berries. Ice cream → Halo Top. Cookies → Dark chocolate 85%."
+      },
+      {
+        "id": "sugar-f5",
+        "type": "guide",
+        "name": "7-Day Sugar Detox Plan",
+        "url": "https://www.healthline.com/nutrition/sugar-detox-symptoms",
+        "description": "Days 1-3: Withdrawal (headaches). Days 4-5: Cravings peak. Days 6-7: Reset complete."
+      }
+    ]
+  },
+  "calorie_awareness": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "calorie-f1",
+        "type": "guide",
+        "name": "Fast Food Calories Infographic",
+        "url": "https://www.businessinsider.com/fast-food-calories-ranked-2017-6",
+        "description": "Big Mac 563cal, Whopper 657cal, Baconator 960cal, KFC Bucket 3100cal."
+      },
+      {
+        "id": "calorie-f2",
+        "type": "guide",
+        "name": "Chipotle Bowl Calorie Comparison",
+        "url": "https://www.chipotle.com/nutrition-calculator",
+        "description": "Chicken bowl (white rice, beans, salsa): 665cal. Carnitas bowl (everything): 1070cal."
+      },
+      {
+        "id": "calorie-f3",
+        "type": "guide",
+        "name": "Restaurant Menu Healthy Choices",
+        "url": "https://www.eatthis.com/healthiest-menu-items-at-popular-restaurants/",
+        "description": "Subway: 6-inch turkey. Starbucks: Egg white bites. Panera: Mediterranean bowl."
+      },
+      {
+        "id": "calorie-f4",
+        "type": "guide",
+        "name": "How to Modify Orders",
+        "url": "https://www.healthline.com/nutrition/healthy-fast-food",
+        "description": "No cheese (-100cal), extra veggies (+20cal), grilled not fried (-200cal), water not soda (-200cal)."
+      }
+    ]
+  },
+  "learn_daily": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "learn-f1",
+        "type": "guide",
+        "name": "Tech Newsletters: TLDR, Hacker News",
+        "url": "https://tldr.tech/",
+        "description": "Daily 5-min tech news. AI, startups, coding. Free email subscription."
+      },
+      {
+        "id": "learn-f2",
+        "type": "guide",
+        "name": "Business Newsletters: Morning Brew, The Hustle",
+        "url": "https://www.morningbrew.com/daily",
+        "description": "Business news made fun. M-F 5-min read. Markets, startups, trends."
+      },
+      {
+        "id": "learn-f3",
+        "type": "guide",
+        "name": "Science: Quanta Magazine, The Prepared",
+        "url": "https://www.quantamagazine.org/",
+        "description": "Math, physics, computer science deep dives. Weekly long-form."
+      },
+      {
+        "id": "learn-f4",
+        "type": "guide",
+        "name": "Personal Growth: James Clear 3-2-1, Tim Ferriss",
+        "url": "https://jamesclear.com/3-2-1",
+        "description": "3 ideas, 2 quotes, 1 question. Thursday wisdom. Atomic Habits author."
+      },
+      {
+        "id": "learn-f5",
+        "type": "guide",
+        "name": "Podcast Playlists: 20-Min Learn Episodes",
+        "url": "https://www.hubermanlab.com/",
+        "description": "Huberman Lab, Lex Fridman, Naval Podcast. Curated by topic."
+      }
+    ]
+  },
+  "high_income_skills": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "skills-f1",
+        "type": "guide",
+        "name": "AI Engineer Learning Path (2025 Hot Skill)",
+        "url": "https://roadmap.sh/ai-engineer",
+        "description": "Step 1: Python basics. Step 2: ML fundamentals (Fast.ai). Step 3: LLM apps (LangChain). Projects: Chatbot, RAG system. $120k-$200k salary."
+      },
+      {
+        "id": "skills-f2",
+        "type": "guide",
+        "name": "Full-Stack Dev Path",
+        "url": "https://roadmap.sh/full-stack",
+        "description": "Frontend: React (freeCodeCamp). Backend: Node.js (Odin Project). Database: PostgreSQL. Projects: Clone Twitter, SaaS MVP. $80k-$150k."
+      },
+      {
+        "id": "skills-f3",
+        "type": "guide",
+        "name": "Data Science Path",
+        "url": "https://roadmap.sh/data-science",
+        "description": "SQL (Mode Analytics), Python (Kaggle), Tableau (YouTube). Projects: Dashboard, prediction model. $90k-$140k."
+      },
+      {
+        "id": "skills-f4",
+        "type": "guide",
+        "name": "Digital Marketing Path",
+        "url": "https://www.semrush.com/academy/",
+        "description": "SEO (Ahrefs Academy), Meta Ads (Facebook Blueprint), Copywriting (Copyhackers). Freelance: $50-$150/hr."
+      },
+      {
+        "id": "skills-f5",
+        "type": "guide",
+        "name": "Sales Skills Path",
+        "url": "https://www.salesgravy.com/sales-training/",
+        "description": "Cold calling, email outreach, objection handling. Courses: Sandler, Fanatical Prospecting. Commission: $100k+."
+      },
+      {
+        "id": "skills-f6",
+        "type": "youtube",
+        "name": "Video Editing Path (Premiere Pro)",
+        "videoId": "Hls3Tp7JS8E",
+        "description": "Basic cuts → Transitions → Color grading → Sound design. Fiverr: $50-$200/video."
+      }
+    ]
+  },
+  "business": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "business-f1",
+        "type": "guide",
+        "name": "Idea Validation Framework",
+        "url": "https://www.ycombinator.com/library/6e-how-to-evaluate-startup-ideas",
+        "description": "Problem: Is it painful? Market: Large enough? Solution: 10x better? Interviews: 20+ customers."
+      },
+      {
+        "id": "business-f2",
+        "type": "guide",
+        "name": "MVP Planning Template (Lean Canvas)",
+        "url": "https://leanstack.com/leancanvas",
+        "description": "Problem, solution, key metrics, unique value, unfair advantage. 20-min exercise."
+      },
+      {
+        "id": "business-f3",
+        "type": "guide",
+        "name": "Business Models: Service vs Product vs Content",
+        "url": "https://www.indiehackers.com/start",
+        "description": "Service: Agency (fast cash). Product: SaaS (scalable). Content: YouTube (long-term)."
+      },
+      {
+        "id": "business-f4",
+        "type": "guide",
+        "name": "Y Combinator Startup School (Free)",
+        "url": "https://www.startupschool.org/",
+        "description": "8-week course. Idea validation, fundraising, growth. Alumni: Airbnb, Stripe, Reddit."
+      },
+      {
+        "id": "business-f5",
+        "type": "guide",
+        "name": "No-Code Tools: Bubble, Webflow, Shopify",
+        "url": "https://www.nocode.tech/",
+        "description": "Build without coding. Bubble (web app), Webflow (website), Shopify (e-commerce)."
+      }
+    ]
+  },
+  "save_money": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "save-f1",
+        "type": "guide",
+        "name": "Auto-Transfer Apps: Qapital, Digit",
+        "url": "https://www.qapital.com/",
+        "description": "Round-up purchases, auto-save $5/day, save % of paycheck. Set-and-forget."
+      },
+      {
+        "id": "save-f2",
+        "type": "guide",
+        "name": "Budgeting Apps: YNAB, Mint, PocketGuard",
+        "url": "https://www.youneedabudget.com/",
+        "description": "YNAB (zero-based). Mint (free, ads). PocketGuard (simplest)."
+      },
+      {
+        "id": "save-f3",
+        "type": "guide",
+        "name": "High-Yield Savings: Marcus, Ally, Wealthfront",
+        "url": "https://www.marcus.com/us/en/savings",
+        "description": "4.5% APY vs 0.01% traditional banks. FDIC insured. No fees."
+      },
+      {
+        "id": "save-f4",
+        "type": "guide",
+        "name": "50/30/20 Rule Budget Template",
+        "url": "https://www.investopedia.com/ask/answers/022916/what-502030-budget-rule.asp",
+        "description": "50% needs (rent, food). 30% wants (fun). 20% savings/debt. Excel template."
+      },
+      {
+        "id": "save-f5",
+        "type": "guide",
+        "name": "r/personalfinance Wiki",
+        "url": "https://www.reddit.com/r/personalfinance/wiki/commontopics/",
+        "description": "Emergency fund → Debt payoff → Invest. Step-by-step flowchart."
+      }
+    ]
+  },
+  "invest": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "invest-f1",
+        "type": "guide",
+        "name": "Index Funds 101: What is S&P 500?",
+        "url": "https://www.bogleheads.org/wiki/Three-fund_portfolio",
+        "description": "500 largest US companies. Historical 10% annual return. VTI, VOO tickers."
+      },
+      {
+        "id": "invest-f2",
+        "type": "guide",
+        "name": "Dollar-Cost Averaging Explained",
+        "url": "https://www.investopedia.com/terms/d/dollarcostaveraging.asp",
+        "description": "Invest $500/month regardless of price. Reduces timing risk. Automatic."
+      },
+      {
+        "id": "invest-f3",
+        "type": "guide",
+        "name": "Compound Interest Calculator",
+        "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+        "description": "$500/mo at 10% = $1M in 30 years. Start early = exponential growth."
+      },
+      {
+        "id": "invest-f4",
+        "type": "guide",
+        "name": "Platforms: Vanguard, Fidelity, Charles Schwab",
+        "url": "https://investor.vanguard.com/home",
+        "description": "Low fees, index funds. Vanguard (best for beginners). Fidelity (research tools)."
+      },
+      {
+        "id": "invest-f5",
+        "type": "youtube",
+        "name": "Investing for Beginners (Ben Felix)",
+        "videoId": "fvGLnthJDsg",
+        "description": "Passive investing, asset allocation, rebalancing. Evidence-based approach."
+      }
+    ]
+  },
+  "income_streams": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "income-f1",
+        "type": "guide",
+        "name": "Freelancing: Upwork/Fiverr Quick Start",
+        "url": "https://www.upwork.com/resources/how-to-get-started-on-upwork",
+        "description": "Build portfolio → Create profile → Bid on 10 jobs/day → Get first client."
+      },
+      {
+        "id": "income-f2",
+        "type": "guide",
+        "name": "YouTube: Niche → 100 Videos → Monetize",
+        "url": "https://www.youtube.com/creators/how-things-work/policies-and-guidelines/monetization-basics/",
+        "description": "Pick niche (tech, finance, fitness). Post 3x/week. 1k subs + 4k watch hours = ads."
+      },
+      {
+        "id": "income-f3",
+        "type": "guide",
+        "name": "Newsletter: ConvertKit → 1k Subs → Sponsors",
+        "url": "https://convertkit.com/resources/how-to-start-a-newsletter",
+        "description": "Write weekly. Grow via Twitter. 1k subs = $500/sponsor. 10k = $5k/sponsor."
+      },
+      {
+        "id": "income-f4",
+        "type": "guide",
+        "name": "Affiliate: Join Programs → Content → Links",
+        "url": "https://www.amazon.com/associates",
+        "description": "Amazon Associates, ClickBank, ShareASale. Create content, add links, earn %."
+      },
+      {
+        "id": "income-f5",
+        "type": "guide",
+        "name": "Income Tracker Template (Notion/Excel)",
+        "url": "https://www.notion.so/templates/income-tracker",
+        "description": "Track all streams. Monthly breakdown. Diversification score. Goal: 3+ streams."
+      }
+    ]
+  },
+  "avoid_debt": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "debt-f1",
+        "type": "guide",
+        "name": "Good vs Bad Debt Guide",
+        "url": "https://www.investopedia.com/articles/pf/12/good-debt-bad-debt.asp",
+        "description": "Bad: Credit cards (20% APR), payday loans. Okay: Student loans (ROI+). Good: Mortgage (appreciation)."
+      },
+      {
+        "id": "debt-f2",
+        "type": "guide",
+        "name": "Credit Card Mastery (Pay in Full)",
+        "url": "https://www.nerdwallet.com/article/credit-cards/credit-cards-101",
+        "description": "Use for rewards. Pay statement balance by due date. Never carry balance. Build credit score."
+      },
+      {
+        "id": "debt-f3",
+        "type": "guide",
+        "name": "Best Cashback Cards: Chase Freedom, Citi Double Cash",
+        "url": "https://www.nerdwallet.com/best/credit-cards/cash-back",
+        "description": "Chase Freedom (5% categories). Citi Double Cash (2% everything). No annual fee."
+      },
+      {
+        "id": "debt-f4",
+        "type": "guide",
+        "name": "Debt Snowball vs Avalanche Method",
+        "url": "https://www.ramseysolutions.com/debt/how-the-debt-snowball-method-works",
+        "description": "Snowball: Smallest balance first (motivation). Avalanche: Highest interest first (math optimal)."
+      },
+      {
+        "id": "debt-f5",
+        "type": "guide",
+        "name": "Debt Consolidation Options",
+        "url": "https://www.nerdwallet.com/article/loans/personal-loans/debt-consolidation-loans",
+        "description": "Personal loan (lower APR). Balance transfer card (0% intro). Negotiate with creditors."
+      }
+    ]
+  },
+  "track_money": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "track-f1",
+        "type": "guide",
+        "name": "Monthly Budget Spreadsheet (Excel/Notion)",
+        "url": "https://www.vertex42.com/ExcelTemplates/personal-budget.html",
+        "description": "Income - Expenses = Savings. Categories: Housing, food, transport, fun."
+      },
+      {
+        "id": "track-f2",
+        "type": "guide",
+        "name": "Expense Tracking (Google Sheets)",
+        "url": "https://docs.google.com/spreadsheets/d/1FZ6U7vKBJPP5rFWNgNQSXQP3YyBSCEcvQV15b8AyL1E/copy",
+        "description": "Auto-categorize transactions. Charts, trends. Free template."
+      },
+      {
+        "id": "track-f3",
+        "type": "guide",
+        "name": "Net Worth Calculator",
+        "url": "https://www.calculator.net/net-worth-calculator.html",
+        "description": "Assets (cash, investments, property) - Liabilities (debt) = Net Worth. Track quarterly."
+      },
+      {
+        "id": "track-f4",
+        "type": "guide",
+        "name": "Apps: Mint, YNAB, PocketGuard",
+        "url": "https://www.mint.com/",
+        "description": "Auto-sync bank accounts. Categorize spending. Budget alerts. Free (Mint)."
+      },
+      {
+        "id": "track-f5",
+        "type": "guide",
+        "name": "Monthly Review Process",
+        "url": "https://www.youneedabudget.com/the-four-rules/",
+        "description": "Review: Income vs expenses. Savings rate %. Investment growth. Goal progress."
+      }
+    ]
+  },
+  "reading_books": {
+    "premium": [],
+    "mid_range": [
+      {
+        "id": "reading-m1",
+        "name": "Kindle Paperwhite Signature Edition",
+        "description": "7-inch glare-free display, auto-adjusting light, wireless charging. 32GB storage.",
+        "price": "$189",
+        "image": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B08N3J8GTX",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      },
+      {
+        "id": "reading-m2",
+        "name": "Audible Premium Plus (Annual)",
+        "description": "12 credits/year + unlimited audiobook library. Best for commuters.",
+        "price": "$149/year",
+        "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=400",
+        "affiliateLink": "https://www.audible.com/",
+        "platform": "Audible",
+        "badge": "Best Value"
+      }
+    ],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "reading-f1",
+        "type": "guide",
+        "name": "Business Books: Atomic Habits, $100M Offers",
+        "url": "https://www.amazon.com/s?k=atomic+habits",
+        "description": "James Clear (habits), Alex Hormozi (sales/offers), Cal Newport (Deep Work), Peter Thiel (Zero to One)."
+      },
+      {
+        "id": "reading-f2",
+        "type": "guide",
+        "name": "Philosophy: Meditations, Man's Search for Meaning",
+        "url": "https://www.amazon.com/s?k=meditations+marcus+aurelius",
+        "description": "Marcus Aurelius (Stoicism), Viktor Frankl (meaning), Seneca (letters), Epictetus (discourses)."
+      },
+      {
+        "id": "reading-f3",
+        "type": "guide",
+        "name": "Self-Help: Can't Hurt Me, The Subtle Art",
+        "url": "https://www.amazon.com/s?k=cant+hurt+me",
+        "description": "David Goggins (mental toughness), Mark Manson (life philosophy), Ryan Holiday (Stoicism)."
+      },
+      {
+        "id": "reading-f4",
+        "type": "guide",
+        "name": "Fiction Classics: 1984, To Kill a Mockingbird",
+        "url": "https://www.amazon.com/s?k=1984+orwell",
+        "description": "George Orwell (1984), Harper Lee (Mockingbird), Dostoevsky (Brothers Karamazov)."
+      },
+      {
+        "id": "reading-f5",
+        "type": "guide",
+        "name": "Science: Sapiens, Thinking Fast and Slow",
+        "url": "https://www.amazon.com/s?k=sapiens",
+        "description": "Yuval Harari (history), Daniel Kahneman (psychology), Richard Dawkins (evolution)."
+      },
+      {
+        "id": "reading-f6",
+        "type": "guide",
+        "name": "How to Read a Book (Mortimer Adler Method)",
+        "url": "https://fs.blog/how-to-read-a-book/",
+        "description": "4 levels: Elementary → Inspectional → Analytical → Syntopical. Master retention."
+      }
+    ]
+  },
+  "mentors": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "mentors-f1",
+        "type": "youtube",
+        "name": "Andrew Huberman (Neuroscience)",
+        "videoId": "dFDaoZhKnoA",
+        "description": "Huberman Lab Podcast. Science-backed protocols for sleep, focus, performance. Stanford professor."
+      },
+      {
+        "id": "mentors-f2",
+        "type": "guide",
+        "name": "Naval Ravikant (Startups & Philosophy)",
+        "url": "https://www.youtube.com/@NavalR",
+        "description": "How to Get Rich, Happiness, Meditation. AngelList founder. Watch: Almanack playlist."
+      },
+      {
+        "id": "mentors-f3",
+        "type": "guide",
+        "name": "Alex Hormozi (Business)",
+        "url": "https://www.youtube.com/@AlexHormozi",
+        "description": "$100M Offers, Leads, Agency scaling. Watch: 'How I Would Start From $0' series."
+      },
+      {
+        "id": "mentors-f4",
+        "type": "guide",
+        "name": "Lex Fridman (AI & Deep Conversations)",
+        "url": "https://www.youtube.com/@lexfridman",
+        "description": "Long-form interviews with world's smartest people. Elon, Sam Altman, Zuckerberg, scientists."
+      },
+      {
+        "id": "mentors-f5",
+        "type": "guide",
+        "name": "Y Combinator (Startup School)",
+        "url": "https://www.youtube.com/@ycombinator",
+        "description": "How to start a startup. Free Startup School. Advice from Airbnb, Stripe, Dropbox founders."
+      },
+      {
+        "id": "mentors-f6",
+        "type": "guide",
+        "name": "Iman Gadzhi (Online Business)",
+        "url": "https://www.youtube.com/@ImanGadzhi",
+        "description": "Agency model, personal brand, young entrepreneurship. Watch: 'How to Start' series."
+      },
+      {
+        "id": "mentors-f7",
+        "type": "guide",
+        "name": "Jordan Peterson (Psychology)",
+        "url": "https://www.youtube.com/@JordanBPeterson",
+        "description": "12 Rules for Life, responsibility, meaning. Watch: Biblical Series, Personality lectures."
+      },
+      {
+        "id": "mentors-f8",
+        "type": "guide",
+        "name": "Ali Abdaal (Productivity)",
+        "url": "https://www.youtube.com/@aliabdaal",
+        "description": "Evidence-based productivity, content creation, side hustles. Doctor turned YouTuber."
+      },
+      {
+        "id": "mentors-f9",
+        "type": "guide",
+        "name": "Pursuit of Wonder (Philosophy)",
+        "url": "https://www.youtube.com/@PursuitofWonder",
+        "description": "Animated philosophy stories. Existentialism, absurdism, meaning of life."
+      }
+    ]
+  },
+  "abs_training": {
+    "premium": [],
+    "mid_range": [
+      {
+        "id": "abs-m1",
+        "name": "Ab Roller Wheel",
+        "description": "Core strengthening tool. Targets entire abdominal wall + obliques.",
+        "price": "$15",
+        "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B07YNDQ8C7",
+        "platform": "Amazon",
+        "badge": "Best Value"
+      }
+    ],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "abs-f1",
+        "type": "youtube",
+        "name": "10-Min Beginner Abs (No Equipment)",
+        "videoId": "DHD1-2P94DI",
+        "description": "Crunches, planks, leg raises, bicycle crunches. Perfect for beginners."
+      },
+      {
+        "id": "abs-f2",
+        "type": "youtube",
+        "name": "15-Min Advanced Abs (Intense)",
+        "videoId": "3p8EBPVZ2Iw",
+        "description": "Dragon flags, hanging leg raises, ab wheel rollouts. Jeff Cavaliere AthleanX."
+      },
+      {
+        "id": "abs-f3",
+        "type": "youtube",
+        "name": "6-Pack Abs Science (Athlean-X)",
+        "videoId": "VKPn2v55EHs",
+        "description": "How to actually see abs. Diet, training frequency, progressive overload explained."
+      },
+      {
+        "id": "abs-f4",
+        "type": "guide",
+        "name": "Best Ab Exercises (Study-Based)",
+        "url": "https://www.t-nation.com/training/21st-century-core-training/",
+        "description": "Top 5: Hanging leg raises, ab wheel, cable crunches, deadbugs, Pallof press."
+      }
+    ]
+  },
+  "faith": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "faith-f1",
+        "type": "guide",
+        "name": "Daily Prayer/Meditation Practices",
+        "url": "https://www.contemplativeoutreach.org/centering-prayer-method/",
+        "description": "Centering Prayer: 20-min silent contemplation. Christian meditation tradition."
+      },
+      {
+        "id": "faith-f2",
+        "type": "guide",
+        "name": "Gratitude & Reflection Prompts",
+        "url": "https://gratefulness.org/resource/grateful-living-practices/",
+        "description": "Stop-Look-Go practice. Pause, recognize blessings, respond with gratitude."
+      },
+      {
+        "id": "faith-f3",
+        "type": "youtube",
+        "name": "Gregorian Chant (1 Hour Meditation)",
+        "videoId": "W-hrBhA4XkM",
+        "description": "Sacred music for contemplation. Benedictine monks chanting."
+      },
+      {
+        "id": "faith-f4",
+        "type": "guide",
+        "name": "The Bible Project (Free Videos)",
+        "url": "https://bibleproject.com/",
+        "description": "Animated summaries of every book. Themes, wisdom literature, history."
+      },
+      {
+        "id": "faith-f5",
+        "type": "guide",
+        "name": "Lectio Divina (Sacred Reading)",
+        "url": "https://www.valyermo.com/ld-art.html",
+        "description": "4 steps: Read, Meditate, Pray, Contemplate. Ancient Christian practice."
+      },
+      {
+        "id": "faith-f6",
+        "type": "guide",
+        "name": "YouVersion Bible App (100% Free)",
+        "url": "https://www.bible.com/",
+        "description": "Daily devotionals, reading plans, audio Bible. 2000+ versions in 1600+ languages."
+      }
+    ]
+  },
+  "hair_wash": {
+    "premium": [
+      {
+        "id": "hair-p1",
+        "name": "Olaplex No. 3 Hair Perfector",
+        "description": "Bond-building treatment. Repairs damage, strengthens hair at molecular level.",
+        "price": "$30",
+        "image": "https://images.unsplash.com/photo-1526045478516-99145907023c?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B00SNM5US4",
+        "platform": "Amazon",
+        "badge": "Premium Choice"
+      }
+    ],
+    "mid_range": [
+      {
+        "id": "hair-m1",
+        "name": "Nizoral Anti-Dandruff Shampoo",
+        "description": "Ketoconazole 1%. Controls flaking, scaling, itching. Dermatologist recommended.",
+        "price": "$15",
+        "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B00AINMFAC",
+        "platform": "Amazon",
+        "badge": "Best Value"
+      }
+    ],
+    "budget": [
+      {
+        "id": "hair-b1",
+        "name": "Sulfate-Free Shampoo & Conditioner",
+        "description": "Gentle cleansing. Preserves natural oils. For all hair types.",
+        "price": "$12",
+        "image": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B07QFNP6DP",
+        "platform": "Amazon",
+        "badge": null
+      }
+    ],
+    "free_resources": [
+      {
+        "id": "hair-f1",
+        "type": "guide",
+        "name": "How Often to Wash Hair (By Type)",
+        "url": "https://www.healthline.com/health/beauty-skin-care/how-often-should-you-wash-your-hair",
+        "description": "Oily: Every other day. Dry: 2x/week. Normal: 2-3x/week. Curly: 1x/week."
+      },
+      {
+        "id": "hair-f2",
+        "type": "youtube",
+        "name": "Proper Hair Washing Technique",
+        "videoId": "sZCzm3PlCuM",
+        "description": "Focus shampoo on scalp. Conditioner on ends only. Massage, don't scratch."
+      },
+      {
+        "id": "hair-f3",
+        "type": "guide",
+        "name": "Cold Water Rinse Benefits",
+        "url": "https://www.medicalnewstoday.com/articles/327461",
+        "description": "Closes cuticles, adds shine, reduces frizz. Finish with 30-second cold rinse."
+      },
+      {
+        "id": "hair-f4",
+        "type": "guide",
+        "name": "Hair Loss Prevention Guide",
+        "url": "https://www.health.harvard.edu/staying-healthy/treating-male-pattern-baldness",
+        "description": "Minoxidil, finasteride, derma rolling, nizoral. Evidence-based treatments."
+      }
+    ]
+  },
+  "sun_gaze": {
+    "premium": [],
+    "mid_range": [],
+    "budget": [],
+    "free_resources": [
+      {
+        "id": "sun-f1",
+        "type": "guide",
+        "name": "Safe Sun Exposure Guide",
+        "url": "https://www.health.harvard.edu/staying-healthy/time-for-more-vitamin-d",
+        "description": "10-15 min before 10am or after 4pm. Face, arms exposed. 3-4x/week for Vitamin D."
+      },
+      {
+        "id": "sun-f2",
+        "type": "guide",
+        "name": "Circadian Rhythm Reset",
+        "url": "https://www.hubermanlab.com/newsletter/toolkit-for-sleep",
+        "description": "Morning sunlight within 30-60 min of waking. 10 min bright days, 30 min cloudy days."
+      },
+      {
+        "id": "sun-f3",
+        "type": "youtube",
+        "name": "Huberman on Light & Circadian Health",
+        "videoId": "VgYYu7P25R8",
+        "description": "How light exposure affects sleep, mood, focus. Morning sun = evening melatonin spike."
+      },
+      {
+        "id": "sun-f4",
+        "type": "guide",
+        "name": "Vitamin D Testing & Supplementation",
+        "url": "https://www.health.harvard.edu/staying-healthy/vitamin-d-and-your-health",
+        "description": "Get blood test. Target: 30-50 ng/mL. Supplement 2000-4000 IU if deficient."
+      },
+      {
+        "id": "sun-f5",
+        "type": "guide",
+        "name": "WARNING: Sun Gazing Safety",
+        "url": "https://www.aao.org/eye-health/tips-prevention/sun",
+        "description": "NEVER stare directly at sun. Can cause permanent retinal damage. Face sun, eyes closed or indirect gaze."
+      }
+    ]
+  },
+  "mouth_tape": {
+    "premium": [],
+    "mid_range": [
+      {
+        "id": "mouth-m1",
+        "name": "Hostage Tape (Mouth Tape for Sleep)",
+        "description": "Promotes nasal breathing during sleep. Reduces snoring, improves oxygen intake.",
+        "price": "$25",
+        "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B09JKLS8TB",
+        "platform": "Amazon",
+        "badge": "Best Seller"
+      }
+    ],
+    "budget": [
+      {
+        "id": "mouth-b1",
+        "name": "Medical-Grade Paper Tape",
+        "description": "Budget alternative. 3M Micropore tape. Gentle on skin, easy removal.",
+        "price": "$8",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+        "affiliateLink": "https://www.amazon.com/dp/B0012TRH48",
+        "platform": "Amazon",
+        "badge": "Budget Choice"
+      }
+    ],
+    "free_resources": [
+      {
+        "id": "mouth-f1",
+        "type": "youtube",
+        "name": "James Nestor: Breath (Mouth Taping Science)",
+        "videoId": "bQNM2u2fxLc",
+        "description": "Author of 'Breath' explains nasal vs mouth breathing. Why tape works."
+      },
+      {
+        "id": "mouth-f2",
+        "type": "guide",
+        "name": "How to Safely Tape Your Mouth",
+        "url": "https://www.sleepfoundation.org/physical-health/mouth-taping",
+        "description": "Start small (30 min daytime). Vertical strip across lips. Ensure nose clear. Test comfort."
+      },
+      {
+        "id": "mouth-f3",
+        "type": "guide",
+        "name": "Nasal Breathing Benefits",
+        "url": "https://www.health.harvard.edu/blog/the-importance-of-nasal-breathing-2020100521045",
+        "description": "Filters air, warms/humidifies, produces nitric oxide (dilates blood vessels), improves O2 absorption."
+      },
+      {
+        "id": "mouth-f4",
+        "type": "youtube",
+        "name": "Buteyko Breathing Method",
+        "videoId": "gMbJ8iRF-gY",
+        "description": "Train nasal breathing during day. Breath hold exercises. Reduce sleep apnea symptoms."
+      },
+      {
+        "id": "mouth-f5",
+        "type": "guide",
+        "name": "When NOT to Mouth Tape",
+        "url": "https://www.sleepfoundation.org/physical-health/mouth-taping",
+        "description": "Don't tape if: nasal congestion, sleep apnea (untreated), obesity, alcohol consumption."
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+.badge {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border);
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.badge:hover {
+  border-color: var(--text-accent);
+  transform: translateY(-2px);
+}
+
+.badge-icon {
+  font-size: 3rem;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.badge-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.badge-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.badge-requirement {
+  font-size: 0.85rem;
+  color: var(--text-accent);
+}
+
+.badge-description {
+  font-size: 0.8rem;
+  color: var(--text-accent);
+  margin-top: 2px;
+}
+
+.badge-status {
+  font-size: 0.75rem;
+  color: var(--text-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+/* Earned state */
+.badge-earned {
+  border-color: var(--text-primary);
+}
+
+.badge-earned .badge-icon {
+  filter: none;
+  animation: badgeEarn 0.5s ease-out;
+}
+
+@keyframes badgeEarn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.badge-earned:hover {
+  border-color: var(--text-primary);
+}
+
+/* Locked state */
+.badge-locked {
+  opacity: 0.4;
+}
+
+.badge-locked .badge-icon {
+  filter: grayscale(100%);
+}
+
+.badge-locked .badge-title,
+.badge-locked .badge-requirement,
+.badge-locked .badge-description {
+  color: var(--text-accent);
+}
+
+.badge-locked:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .badge {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .badge-icon {
+    font-size: 2.5rem;
+  }
+
+  .badge-title {
+    font-size: 1rem;
+  }
+
+  .badge-requirement,
+  .badge-description {
+    font-size: 0.75rem;
+  }
+}
