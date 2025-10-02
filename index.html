@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/theblueprint/assets/favicon-D9ihwwvZ.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="THE BLUEPRINT - it takes just 30 days to build unbreakable habits" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <title>THE BLUEPRINT - it takes just 30 days</title>
+
+    <!-- Premium Font Stack - Clean Sans-Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Teko (ultra-condensed, sharp - for THE BLUEPRINT title only) -->
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+    <!-- Inter (clean sans-serif for everything else) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Google Maps API (optional - for Enhanced GPS Run Tracker) -->
+    <script>
+      // Dynamically load Google Maps if API key is available
+      const apiKey = import.meta.env?.VITE_GOOGLE_MAPS_API_KEY;
+      if (apiKey && apiKey !== 'your_api_key_here') {
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=visualization`;
+        script.async = true;
+        script.defer = true;
+        document.head.appendChild(script);
+      }
+    </script>
+    <script type="module" crossorigin src="/theblueprint/assets/index-CrclcuUL.js"></script>
+    <link rel="stylesheet" crossorigin href="/theblueprint/assets/index-Ccza1FEJ.css">
+  <link rel="manifest" href="/theblueprint/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/theblueprint/registerSW.js"></script></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

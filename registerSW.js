@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/theblueprint/sw.js', { scope: '/theblueprint/' })})}
