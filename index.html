@@ -11,18 +11,14 @@
 
     <!-- Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // https://github.com/rafgraph/spa-github-pages
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) {
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
+      // Restore the redirected URL from sessionStorage
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
         }
-      }(window.location))
+      })();
     </script>
 
     <!-- Premium Font Stack - Clean Sans-Serif -->
@@ -45,8 +41,8 @@
         document.head.appendChild(script);
       }
     </script>
-    <script type="module" crossorigin src="/theblueprint/assets/index-MK2GyWAt.js"></script>
-    <link rel="stylesheet" crossorigin href="/theblueprint/assets/index-SOmjg-21.css">
+    <script type="module" crossorigin src="/theblueprint/assets/index-CjF6oTOx.js"></script>
+    <link rel="stylesheet" crossorigin href="/theblueprint/assets/index-DQRp6oRP.css">
   <link rel="manifest" href="/theblueprint/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/theblueprint/registerSW.js"></script></head>
   <body>
     <div id="root"></div>
