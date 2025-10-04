@@ -243,11 +243,18 @@
 
   .asset-modal__tabs {
     padding: 0 20px;
+    -webkit-overflow-scrolling: touch;
   }
 
   .asset-modal__tab {
-    padding: 14px 16px;
-    font-size: 0.8rem;
+    padding: 14px 12px;
+    font-size: 0.75rem;
+    flex-shrink: 0;
+  }
+
+  .asset-modal__tab-count {
+    font-size: 0.7rem;
+    padding: 2px 6px;
   }
 
   .asset-modal__content {
@@ -436,6 +443,21 @@
     width: 36px;
     height: 36px;
     font-size: 24px;
+  }
+
+  .asset-modal__tabs {
+    padding: 0 12px;
+  }
+
+  .asset-modal__tab {
+    padding: 12px 8px;
+    font-size: 0.7rem;
+    gap: 4px;
+  }
+
+  .asset-modal__tab-count {
+    font-size: 0.65rem;
+    padding: 1px 4px;
   }
 
   .asset-modal__products {

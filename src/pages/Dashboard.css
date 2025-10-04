@@ -101,6 +101,45 @@
   letter-spacing: 0.06em;
 }
 
+@media (max-width: 768px) {
+  .dashboard__header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .dashboard__menu-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+    align-self: flex-end;
+  }
+
+  .dashboard__title {
+    font-size: 32px;
+  }
+
+  .dashboard__subtitle {
+    font-size: 10px;
+  }
+
+  .dashboard__quote {
+    font-size: 13px;
+  }
+
+  .dashboard__stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .dashboard__section-title {
+    font-size: 18px;
+  }
+
+  .dashboard__pillar-title {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 640px) {
   .dashboard__title {
     font-size: 24px;
